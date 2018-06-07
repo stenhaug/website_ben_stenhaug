@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tidyverse on Ben Stenhaug</title>
-    <link>/hugo-goa-demo/tags/tidyverse/</link>
+    <link>/tags/tidyverse/</link>
     <description>Recent content in Tidyverse on Ben Stenhaug</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/hugo-goa-demo/tags/tidyverse/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/tidyverse/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>teachR</title>
-      <link>/hugo-goa-demo/projects/teachr/</link>
+      <link>/projects/teachr/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/hugo-goa-demo/projects/teachr/</guid>
+      <guid>/projects/teachr/</guid>
       <description>You can find the curriculum here.
 Background: After completing the Stanford Data Challenge Lab, I started to think about how I would teach R. To that end, I began making YouTube videos, writing articles, and designing exercises. This curriculum is unfinished for now but I plan to return to it in the future.
 If you check out one piece of content, make it be the 5 verbs of dplyr exercise.</description>

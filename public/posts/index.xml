@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ben Stenhaug</title>
-    <link>/hugo-goa-demo/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Ben Stenhaug</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/hugo-goa-demo/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Starting a podcast — Ben, Ben, and Blue</title>
-      <link>/hugo-goa-demo/posts/benbenandblue/</link>
+      <link>/posts/benbenandblue/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/hugo-goa-demo/posts/benbenandblue/</guid>
+      <guid>/posts/benbenandblue/</guid>
       <description>I am very excited to tell you that Grant Sanderson (aka 3Blue1Brown), Ben Eater, and I are starting a podcast about education and whatever else comes to mind called Ben, Ben, and Blue.
  Overcast iTunes Spotify YouTube Google Play Stitcher Patreon RSS  </description>
     </item>
