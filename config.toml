@@ -1,0 +1,78 @@
+## Basic Configuration
+
+baseurl = "https://shenoybr.github.io/hugo-goa-demo/" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Ben Stenhaug"
+title = "Ben Stenhaug"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Ben Stenhaug"
+intro = "Learning and teaching data science for education and social good."
+description = "Current <a href=\"https://dssg.uchicago.edu/\">Data Science For Social Good fellow</a> and PhD student at Stanford. <br/> Previously at Khan Academy, Teach for America, and UW-Madison."
+
+authorimage = "ben_stenhaug_profile_pic_square.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Ben Stenhaug's personal website"
+keywords = "data,datascience,R,tidyverse,stanford,dssg,education,teaching,learning"
+
+## Social Accounts
+[params.social]
+medium = "BenStenhaug"
+twitter = "BenStenhaug"
+github = "stenhaug"
+linkedin = "ben-stenhaug"
+youtube = "benastenhaug"
+email = "benastenhaug@gmail.com"
+university = "benastenhaug"
+
+## Extras
+[params.extra]
+copyright = "© 2018. Ben Stenhaug." 
+poweredby = true
+highlightjs = true
+rss = true
+
+## Main Menu
+[[menu.main]]
+    name = "posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "projects"
+    identifier = "projects"
+    weight = 200
+    url = "/projects/"
+[[menu.main]]
+    name = "tags"
+    identifier = "tags"
+    weight = 300
+    url = "/tags/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 400
+    url = "/about/"
+[[menu.main]]
+    name = "feedback"
+    identifier = "feedback"
+    weight = 500
+    url = "/feedback/"
