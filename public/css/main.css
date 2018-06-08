@@ -40,10 +40,6 @@ html
     min-height: 100%;
     margin: 0;
 }
-.author
-{
-    color: #444;
-}
 .author h1,
 .author h2,
 .author h3,
@@ -87,8 +83,9 @@ div.content
 .description
 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    color: #bbb;
+    font-size: 20px;
+    font-weight: 300;
+    color: #777;
 }
 .error
 {
@@ -97,6 +94,12 @@ div.content
     margin-top: 100px;
 }
 .error h1
+{
+    font-size: 85px;
+
+    color: #bbb;
+}
+.error h3
 {
     font-size: 85px;
 
