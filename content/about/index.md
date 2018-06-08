@@ -15,6 +15,6 @@ I then worked for nearly 3 years at Khan Academy on math content (everything fro
 
 Motivated by the possibility of leveraging the explosion of education data gathered by organizations like Khan Academy, I joined the Stanford Graduate School of Education as a PhD student in 2016. I think about measuring test bias and data science for education and social good.
 
-Along the way, I've received an extraordinary data science education thanks to Stanford's Master's Program in Statistics and the [**Stanford Data Lab**](https://datalab.stanford.edu/) in particular. I'm also a [**2018 Data Science For Social Good fellow**](https://dssg.uchicago.edu/).
+Along the way, I've received an extraordinary data science education thanks to Stanford's Master's Program in Statistics and the [**Stanford Data Lab**](https://datalab.stanford.edu/) in particular. I'm also a [**2018 Data Science For Social Good fellow**](https://dssg.uchicago.edu/). As a result of these experiences, I've become interested in teaching data science (and R in particular) especially to anyone that doesn't have access to these opportunities.
 
 If you're interested in connecting, feel free to reach out to me at benastenhaug@gmail.com.
