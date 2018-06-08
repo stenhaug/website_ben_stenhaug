@@ -22,7 +22,7 @@ a:link
 body
 {
     font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 400;
 
     width: auto;
@@ -98,7 +98,7 @@ div.content
 }
 .error h1
 {
-    font-size: 80px;
+    font-size: 85px;
 
     color: #bbb;
 }
@@ -161,7 +161,7 @@ h3.intro
 .list-entry
 {
     font-family: 'Roboto Slab', serif;
-    font-size: 25px;
+    font-size: 10px;
     font-weight: 400;
 
     margin-top: 10px;
@@ -184,7 +184,7 @@ h3.intro
 .menu-item
 {
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300;
 
     text-decoration: none;

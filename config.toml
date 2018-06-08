@@ -64,12 +64,12 @@ rss = true
 [[menu.main]]
     name = "tags"
     identifier = "tags"
-    weight = 300
+    weight = 550
     url = "/tags/"
 [[menu.main]]
     name = "about"
     identifier = "about"
-    weight = 400
+    weight = 50
     url = "/about/"
 [[menu.main]]
     name = "feedback"
