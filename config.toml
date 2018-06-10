@@ -23,7 +23,7 @@ enableRobotsTXT = true
 [params]
 author = "Ben Stenhaug"
 intro = "Learning and teaching data science for education and social good."
-description = "Current <a href=\"https://dssg.uchicago.edu/\">Data Science For Social Good fellow</a> and PhD student at Stanford. <br/> Previously at Khan Academy, Teach for America, and UW-Madison."
+description = "<a href=\"https://dssg.uchicago.edu/\">Data Science For Social Good fellow</a> and PhD student at Stanford. <br/> Previously at Khan Academy, Teach for America, and UW-Madison."
 
 authorimage = "ben_stenhaug_profile_pic_square.jpg"
 dateformat = "Jan 2, 2006"
