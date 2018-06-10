@@ -1,0 +1,17 @@
+---
+title: this
+author: ''
+date: '2018-06-10'
+slug: this
+categories: []
+tags: []
+comments: no
+showcomments: yes
+showpagemeta: yes
+---
+
+```{r}
+mtcars
+```
+
+

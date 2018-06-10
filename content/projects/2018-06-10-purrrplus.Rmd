@@ -1,0 +1,69 @@
+---
+title: purrrplus
+description: "An R package that expands the functionality of purrr."
+author: ''
+date: '2018-06-10'
+slug: purrrplus
+tags:
+  - R
+  - Tidyverse
+  - Packages
+comments: no
+showcomments: yes
+showpagemeta: yes
+---
+
+[**See the package on GitHub.**](https://github.com/stenhaug/purrrplus)
+
+### Background
+
+In my work, I often need to run a function in R many times (for example in running a simulation). If any of these runs throw an error, all progress is lost. The tidyverse package purrrr provides functionality like *safely* which helps but makes subsequent analysis tricky. As a remedy, I wrote the package purrrplus which allows for running a function safely with easy analysis of errors and results. 
+
+### Example
+
+```{r message=FALSE}
+library(purrrplus)
+library(tidyverse) # most useful with the tidyverse
+```
+
+Imagine you have a function (which returns a named list or a named vector and might throw an error):
+
+```{r}
+calculate_if_positive <- function(a, b){
+  if(a < 0 & b < 0) {stop("Both numbers are negative.")}
+  else if(a < 0) {stop("Just the first number is negative")}
+  else if(b < 0) {stop("Just the second number is negative")}
+  
+  list(add = a + b,
+       subtract = a - b,
+       multiply = a * b,
+       divide = a / b)
+}
+```
+
+And you want to apply this function to each row of a data frame (which might contain irrelevant variables):
+
+```{r}
+(numbers <- data_frame(a = c(-1, 0, 1, 2),
+                      b = c(2, 1, 0, -1),
+                      irrelevant = c("minneapolis", "st_paul", "minneapolis", "st_paul")))
+```
+
+pmap_safely adds an error and a result column (which come from applying the function) to the inputted data frame.
+
+```{r}
+(output <- pmap_safely(numbers, calculate_if_positive))
+```
+
+get_errors allows for quick analysis of errors:
+
+```{r}
+get_errors(output)
+```
+
+get_results filters out rows with errors and unnests results such that each item in the list that the function returns has its own column:
+
+```{r}
+get_results(output)
+```
+
