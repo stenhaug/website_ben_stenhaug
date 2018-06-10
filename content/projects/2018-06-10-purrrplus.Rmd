@@ -13,7 +13,7 @@ showcomments: yes
 showpagemeta: yes
 ---
 
-[**See the package website.**](stenhaug.github.io/purrrplus)
+[**See the package website.**](http://stenhaug.github.io/purrrplus)
 
 ### Background
 
