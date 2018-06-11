@@ -11,6 +11,7 @@ tags:
 comments: no
 showcomments: yes
 showpagemeta: yes
+output: github_document
 ---
 
 [**See the package website.**](http://stenhaug.github.io/purrrplus)
