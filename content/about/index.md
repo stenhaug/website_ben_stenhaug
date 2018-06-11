@@ -9,7 +9,7 @@ title = "About"
 showpagemeta = false
 +++
 
-I majored in statistics, economics, and mathematics at the University of Wisconsin-Madison. Following college, I nearly entered a PhD program in economics but seeking the uncomfortable joined Teach for America and served as a high school math teacher in Eastern North Carolina instead.
+I majored in statistics, economics, and mathematics at the University of Wisconsin-Madison. Following college, I nearly entered a PhD program in economics but instead joined Teach for America and served as a high school math teacher in Eastern North Carolina.
 
 I then worked for nearly 3 years at Khan Academy on math content (everything from middle school to AP Statistics and AP Calculus) that is still used by millions of students worldwide.
 
