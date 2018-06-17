@@ -22,7 +22,7 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Ben Stenhaug"
-intro = "Learning and teaching data science for education and social good."
+intro = "Learning and teaching data science \n\n for education and social good."
 description = "<a href=\"https://dssg.uchicago.edu/\">Data Science For Social Good fellow</a> and PhD student at Stanford. <br/> Previously at Khan Academy, Teach for America, and UW-Madison."
 
 authorimage = "ben_stenhaug_profile_pic_square.jpg"
@@ -71,8 +71,3 @@ rss = true
     identifier = "about"
     weight = 50
     url = "/about/"
-[[menu.main]]
-    name = "feedback"
-    identifier = "feedback"
-    weight = 500
-    url = "/feedback/"

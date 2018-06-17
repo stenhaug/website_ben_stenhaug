@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>/feedback/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/projects/teachr/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -48,12 +43,6 @@
   <url>
     <loc>/tags/education/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/feedback/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
