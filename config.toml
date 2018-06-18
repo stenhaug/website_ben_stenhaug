@@ -35,13 +35,13 @@ keywords = "data,datascience,R,tidyverse,stanford,dssg,education,teaching,learni
 
 ## Social Accounts
 [params.social]
-medium = "@benastenhaug"
-twitter = "BenStenhaug"
-github = "stenhaug"
 linkedin = "ben-stenhaug"
+github = "stenhaug"
+medium = "@benastenhaug"
 youtube = "benastenhaug"
 email = "benastenhaug@gmail.com"
 university = "benastenhaug"
+# twitter = "BenStenhaug"
 
 ## Extras
 [params.extra]
