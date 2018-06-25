@@ -5,7 +5,7 @@ draft = false
 slug = "teachR"
 tags = ["Teaching", "R", "Tidyverse"]
 title = "teachR"
-description = "A work-in-progress curriculum for teaching R (focusing on the tidyverse)"
+description = "A work-in-progress curriculum of videos, articles, and exercises for teaching data science in R (focusing on the tidyverse)."
 +++
 
 [**You can find the curriculum here.**](http://teachingr.com/)
