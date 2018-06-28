@@ -21,7 +21,7 @@ enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "!!!Ben Stenhaug"
+author = "Ben Stenhaug"
 intro = "Learning and teaching data science \n\n for education and social good."
 description = "<a href=\"https://dssg.uchicago.edu/\">Data Science For Social Good fellow</a> and PhD student at Stanford. <br/> Previously at Khan Academy, Teach for America, and UW-Madison."
 
