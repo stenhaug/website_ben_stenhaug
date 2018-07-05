@@ -70,10 +70,10 @@ html
 div.content
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px; /* about text */
     font-weight: 300;
 
-    color: #777;
+    color: #111;
 }
 .copyright
 {
@@ -85,8 +85,8 @@ div.content
 {
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
-    font-weight: 300;
-    color: #777;
+    font-weight: 300; /* description on front page */
+    color: #111;
 }
 .error
 {
@@ -110,7 +110,7 @@ div.content
 {
     margin-top: 150px;
 
-    color: #777;
+    color: #111;
 }
 .excerpt
 {
@@ -118,14 +118,14 @@ div.content
     font-size: 18px;
     font-weight: 200;
 
-    color: #555;
+    color: #111;
     margin-bottom: 20px;
 }
 .footer
 {
     margin-top: 10px;
 
-    color: #bbb;
+    color: #111;
 }
 .header
 {
@@ -145,9 +145,9 @@ div.content
 .intro
 {
     font-family: 'Roboto Slab', serif;
-    font-size: 26px;
+    font-size: 24px; /* right below name */
     font-weight: 200;
-    color: #777;
+    color: #111;
 }
 h3.intro
 {
@@ -165,7 +165,7 @@ h3.intro
 .list-entry
 {
     font-family: 'Roboto Slab', serif;
-    font-size: 27px; /* size of title of projects */s
+    font-size: 30px; /* size of title of projects */
     font-weight: 400;
 
     margin-top: 10px;
@@ -174,6 +174,11 @@ h3.intro
 .list-entry-link
 {
     padding: 0;
+}
+.excerpt
+{
+    padding: 0;
+    font-size: 22px /* project descriptions */
 }
 .main-menu
 {
@@ -193,7 +198,7 @@ h3.intro
 
     text-decoration: none;
 
-    color: #966 !important;
+    color: #966 !important; /* link colors */
 }
 .meta
 {
@@ -201,7 +206,7 @@ h3.intro
     font-size: 12px;
     font-weight: 200;
 
-    color: #bbb;
+    color: #777; /* date */
 }
 a.meta
 {
@@ -213,7 +218,7 @@ h6.meta
     font-size: 12px;
     font-weight: 200;
 
-    color: #bbb;
+    color: #111;
 }
 section.meta {
     margin-top: 
@@ -238,7 +243,7 @@ section.meta {
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
 
-    color: #555;
+    color: #526d7a; /* about header */
 }
 header.title
 {
