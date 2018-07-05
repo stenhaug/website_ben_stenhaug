@@ -3,7 +3,6 @@ comments = false
 date = "2018-01-01"
 draft = false
 slug = "teachR"
-tags = ["Teaching", "R", "Tidyverse"]
 title = "teachR"
 description = "A work-in-progress curriculum of videos, articles, and exercises for teaching data science in R (focusing on the tidyverse)."
 +++

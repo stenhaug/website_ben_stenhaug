@@ -17,7 +17,7 @@ a:link
 {
     text-decoration: none;
 
-    color: #526d7a;
+    color: #111;
 }
 body
 {
@@ -30,7 +30,7 @@ body
     min-height: 100%;
     margin: 0;
 
-    background-color: #fcfcfc;
+    background-color: #FFFFFF
 }
 html
 {
@@ -96,15 +96,11 @@ div.content
 }
 .error h1
 {
-    font-size: 85px;
 
-    color: #bbb;
 }
 .error h3
 {
-    font-size: 70px;
 
-    color: #bbb;
 }
 .error p
 {
@@ -131,6 +127,7 @@ div.content
 {
     margin-top: 60px;
     margin-bottom: 20px;
+    color: #111 /* name */
 }
 .headshot
 {
@@ -203,7 +200,7 @@ h3.intro
 .meta
 {
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 200;
 
     color: #777; /* date */
@@ -236,14 +233,14 @@ section.meta {
 .social,
 .social a
 {
-    color: #526d7a;
+    color: #111;
 }
 .title
 {
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
 
-    color: #526d7a; /* about header */
+    color: #111; /* about header */
 }
 header.title
 {

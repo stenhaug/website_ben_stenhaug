@@ -6,12 +6,12 @@ purrrplus
 
 ### Background
 
-TESTIn my work, I often need to run a function in R many times (for
-example in running a simulation). If any of these runs throw an error,
-all progress is lost. The tidyverse package purrrr provides
-functionality like *safely* which helps but makes subsequent analysis
-tricky. As a remedy, I wrote the package purrrplus which allows for
-running a function safely with easy analysis of errors and results.
+In my work, I often need to run a function in R many times (for example
+in running a simulation). If any of these runs throw an error, all
+progress is lost. The tidyverse package purrrr provides functionality
+like *safely* which helps but makes subsequent analysis tricky. As a
+remedy, I wrote the package purrrplus which allows for running a
+function safely with easy analysis of errors and results.
 
 ### Example
 

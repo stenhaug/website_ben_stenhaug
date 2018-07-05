@@ -4,7 +4,6 @@ date = "2017-08-01"
 draft = false
 showpagemeta = true
 slug = "benbenandblue"
-tags = ["Podcast", "Education"]
 title = " Ben, Ben, and Blue"
 description = "Starting a podcast with two friends about education, content creation, and whatever else comes to mind!"
 +++
