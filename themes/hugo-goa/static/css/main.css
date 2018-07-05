@@ -49,10 +49,12 @@ html
 .author p
 {
     font-family: 'Roboto Slab', serif;
+    font-size: 100px;
 }
 .category
 {
     color: #966 !important;
+    font-size: 10px;
 }
 .container
 {
@@ -164,7 +166,7 @@ h3.intro
 .list-entry
 {
     font-family: 'Roboto Slab', serif;
-    font-size: 24px;
+    font-size: 30px; /* size of title of projects */s
     font-weight: 400;
 
     margin-top: 10px;
