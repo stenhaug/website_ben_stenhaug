@@ -69,5 +69,5 @@ rss = true
 [[menu.main]]
     name = "about"
     identifier = "about"
-    weight = 50
+    weight = 300
     url = "/about/"
