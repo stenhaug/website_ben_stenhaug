@@ -5,7 +5,7 @@ draft = false
 showpagemeta = true
 slug = "benbenandblue"
 title = " Ben, Ben, and Blue"
-description = "Starting a podcast with two friends about education, content creation, and whatever else comes to mind!"
+description = "A podcast with two friends about education, content creation, and whatever else comes to mind!"
 +++
 I am very excited to tell you that Grant Sanderson (aka [**3Blue1Brown**](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)), [**Ben Eater**](https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA), and I are starting a podcast about education and whatever else comes to mind called [**Ben, Ben, and Blue**](https://www.benbenandblue.com/).
 
