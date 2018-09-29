@@ -12,13 +12,13 @@
     
     
     <item>
-      <title> Ben, Ben, and Blue</title>
-      <link>/projects/benbenandblue/</link>
+      <title>Starting a podcast — Ben, Ben, and Blue</title>
+      <link>/posts/benbenandblue/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/projects/benbenandblue/</guid>
-      <description>I am very excited to tell you that Grant Sanderson (aka 3Blue1Brown), Ben Eater, and I are starting a podcast about education and whatever else comes to mind called Ben, Ben, and Blue.
- Overcast iTunes Spotify YouTube Google Play Stitcher Patreon RSS  </description>
+      <guid>/posts/benbenandblue/</guid>
+      <description>Introduction As data science skills become increasingly important, the teaching of data science becomes increasingly valuable. In the context of data science, I think of teaching not as the traditional process of talking at a whiteboard or grading worksheets, but instead as the process of creating environments and designing experiences that leads to measurable learning for students.
+As a matter of definition, I am interested in developing in students the ability to extract value out of data (which I’ll refer to as data science).</description>
     </item>
     
   </channel>

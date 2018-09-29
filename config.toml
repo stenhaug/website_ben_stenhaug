@@ -51,11 +51,11 @@ highlightjs = true
 rss = true
 
 ## Main Menu
-#[[menu.main]]
-    #name = "posts"
-    #weight = 100
-    #identifier = "posts"
-    #url = "/posts/"
+[[menu.main]]
+    name = "posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
 [[menu.main]]
     name = "projects"
     identifier = "projects"
