@@ -42,16 +42,5 @@ If you only look at one piece of content, check out the 5 verbs of dplyr article
  Overcast iTunes Spotify YouTube Google Play Stitcher Patreon RSS  </description>
     </item>
     
-    <item>
-      <title></title>
-      <link>/projects/2018-06-10-purrrplus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/projects/2018-06-10-purrrplus/</guid>
-      <description>purrrplus 2018-06-10
-See the package website.
-Background In my work, I often need to run a function in R many times (for example in running a simulation). If any of these runs throw an error, all progress is lost. The tidyverse package purrrr provides functionality like safely which helps but makes subsequent analysis tricky. As a remedy, I wrote the package purrrplus which allows for running a function safely with easy analysis of errors and results.</description>
-    </item>
-    
   </channel>
 </rss>

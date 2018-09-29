@@ -4,10 +4,13 @@ description: "An R package that expands the functionality of purrr."
 author: ''
 date: '2018-06-10'
 slug: purrrplus
+tags:
+  - R
+  - Tidyverse
+  - Packages
 comments: no
 showcomments: yes
 showpagemeta: yes
-output: github_document
 ---
 
 [**See the package website.**](http://stenhaug.github.io/purrrplus)
@@ -63,4 +66,3 @@ get_results filters out rows with errors and unnests results such that each item
 ```{r}
 get_results(output)
 ```
-

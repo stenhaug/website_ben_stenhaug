@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>/post/teaching/</loc>
-    <lastmod>2018-09-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/projects/purrrplus/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
   </url>
@@ -30,10 +25,6 @@
   <url>
     <loc>/projects/benbenandblue/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projects/2018-06-10-purrrplus/</loc>
   </url>
   
   <url>
@@ -55,13 +46,13 @@
   </url>
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2018-09-29T00:00:00+00:00</lastmod>
+    <loc>/tags/packages/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>/posts/</loc>
     <lastmod>2018-09-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -73,7 +64,20 @@
   </url>
   
   <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tidyverse/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
