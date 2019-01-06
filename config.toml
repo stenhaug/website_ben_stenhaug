@@ -26,9 +26,6 @@ enableRobotsTXT = true
 author = "Ben Stenhaug"
 intro = "<a href=\"https://sdsi.stanford.edu//\">Data Science Scholar</a> and PhD student at Stanford."
 description = "Previously at <a href=\"https://dssg.uchicago.edu/\">Data Science for Social Good</a>, Khan Academy, and TFA."
-
-
-
 authorimage = "ben_stenhaug_profile_pic_square.jpg"
 dateformat = "Jan 2, 2006"
 
