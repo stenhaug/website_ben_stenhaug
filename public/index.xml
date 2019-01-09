@@ -6,10 +6,20 @@
     <description>Recent content on Ben Stenhaug</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 29 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Making R code over 100 times faster — an example</title>
+      <link>/posts/making_r_code_over_100_times_faster_an_example/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/making_r_code_over_100_times_faster_an_example/</guid>
+      <description>You can find the blog post on the Stanford libraries webpage here.
+Background As a data science software consultant for the Stanford libraries, I often hear people complain that R is slow. I wrote this blog post to demonstrate that R code can oftentimes be re-written to be much, much faster.</description>
+    </item>
     
     <item>
       <title>Research on Teaching Data Science</title>
