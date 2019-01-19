@@ -11,9 +11,9 @@
 
 <meta name="author" content />
 
-<meta name="date" content="2018-06-10" />
+<meta name="date" content="2018-01-15" />
 
-<title>purrrplus</title>
+<title>developing_data_science_PCK</title>
 
 <script>/*! jQuery v1.11.3 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license */
 !function(a,b){"object"==typeof module&&"object"==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error("jQuery requires a window with a document");return b(a)}:b(a)}("undefined"!=typeof window?window:this,function(a,b){var c=[],d=c.slice,e=c.concat,f=c.push,g=c.indexOf,h={},i=h.toString,j=h.hasOwnProperty,k={},l="1.11.3",m=function(a,b){return new m.fn.init(a,b)},n=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,o=/^-ms-/,p=/-([\da-z])/gi,q=function(a,b){return b.toUpperCase()};m.fn=m.prototype={jquery:l,constructor:m,selector:"",length:0,toArray:function(){return d.call(this)},get:function(a){return null!=a?0>a?this[a+this.length]:this[a]:d.call(this)},pushStack:function(a){var b=m.merge(this.constructor(),a);return b.prevObject=this,b.context=this.context,b},each:function(a,b){return m.each(this,a,b)},map:function(a){return this.pushStack(m.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(d.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(0>a?b:0);return this.pushStack(c>=0&&b>c?[this[c]]:[])},end:function(){return this.prevObject||this.constructor(null)},push:f,sort:c.sort,splice:c.splice},m.extend=m.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for("boolean"==typeof g&&(j=g,g=arguments[h]||{},h++),"object"==typeof g||m.isFunction(g)||(g={}),h===i&&(g=this,h--);i>h;h++)if(null!=(e=arguments[h]))for(d in e)a=g[d],c=e[d],g!==c&&(j&&c&&(m.isPlainObject(c)||(b=m.isArray(c)))?(b?(b=!1,f=a&&m.isArray(a)?a:[]):f=a&&m.isPlainObject(a)?a:{},g[d]=m.extend(j,f,c)):void 0!==c&&(g[d]=c));return g},m.extend({expando:"jQuery"+(l+Math.random()).replace(/\D/g,""),isReady:!0,error:function(a){throw new Error(a)},noop:function(){},isFunction:function(a){return"function"===m.type(a)},isArray:Array.isArray||function(a){return"array"===m.type(a)},isWindow:function(a){return null!=a&&a==a.window},isNumeric:function(a){return!m.isArray(a)&&a-parseFloat(a)+1>=0},isEmptyObject:function(a){var b;for(b in a)return!1;return!0},isPlainObject:function(a){var b;if(!a||"object"!==m.type(a)||a.nodeType||m.isWindow(a))return!1;try{if(a.constructor&&!j.call(a,"constructor")&&!j.call(a.constructor.prototype,"isPrototypeOf"))return!1}catch(c){return!1}if(k.ownLast)for(b in a)return j.call(a,b);for(b in a);return void 0===b||j.call(a,b)},type:function(a){return null==a?a+"":"object"==typeof a||"function"==typeof a?h[i.call(a)]||"object":typeof a},globalEval:function(b){b&&m.trim(b)&&(a.execScript||function(b){a.eval.call(a,b)})(b)},camelCase:function(a){return a.replace(o,"ms-").replace(p,q)},nodeName:function(a,b){return a.nodeName&&a.nodeName.toLowerCase()===b.toLowerCase()},each:function(a,b,c){var d,e=0,f=a.length,g=r(a);if(c){if(g){for(;f>e;e++)if(d=b.apply(a[e],c),d===!1)break}else for(e in a)if(d=b.apply(a[e],c),d===!1)break}else if(g){for(;f>e;e++)if(d=b.call(a[e],e,a[e]),d===!1)break}else for(e in a)if(d=b.call(a[e],e,a[e]),d===!1)break;return a},trim:function(a){return null==a?"":(a+"").replace(n,"")},makeArray:function(a,b){var c=b||[];return null!=a&&(r(Object(a))?m.merge(c,"string"==typeof a?[a]:a):f.call(c,a)),c},inArray:function(a,b,c){var d;if(b){if(g)return g.call(b,a,c);for(d=b.length,c=c?0>c?Math.max(0,d+c):c:0;d>c;c++)if(c in b&&b[c]===a)return c}return-1},merge:function(a,b){var c=+b.length,d=0,e=a.length;while(c>d)a[e++]=b[d++];if(c!==c)while(void 0!==b[d])a[e++]=b[d++];return a.length=e,a},grep:function(a,b,c){for(var d,e=[],f=0,g=a.length,h=!c;g>f;f++)d=!b(a[f],f),d!==h&&e.push(a[f]);return e},map:function(a,b,c){var d,f=0,g=a.length,h=r(a),i=[];if(h)for(;g>f;f++)d=b(a[f],f,c),null!=d&&i.push(d);else for(f in a)d=b(a[f],f,c),null!=d&&i.push(d);return e.apply([],i)},guid:1,proxy:function(a,b){var c,e,f;return"string"==typeof b&&(f=a[b],b=a,a=f),m.isFunction(a)?(c=d.call(arguments,2),e=function(){return a.apply(b||this,c.concat(d.call(arguments)))},e.guid=a.guid=a.guid||m.guid++,e):void 0},now:function(){return+new Date},support:k}),m.each("Boolean Number String Function Array Date RegExp Object Error".split(" "),function(a,b){h["[object "+b+"]"]=b.toLowerCase()});function r(a){var b="length"in a&&a.length,c=m.type(a);return"function"===c||m.isWindow(a)?!1:1===a.nodeType&&b?!0:"array"===c||0===b||"number"==typeof b&&b>0&&b-1 in a}var s=function(a){var b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u="sizzle"+1*new Date,v=a.document,w=0,x=0,y=ha(),z=ha(),A=ha(),B=function(a,b){return a===b&&(l=!0),0},C=1<<31,D={}.hasOwnProperty,E=[],F=E.pop,G=E.push,H=E.push,I=E.slice,J=function(a,b){for(var c=0,d=a.length;d>c;c++)if(a[c]===b)return c;return-1},K="checked|selected|async|autofocus|autoplay|controls|defer|disabled|hidden|ismap|loop|multiple|open|readonly|required|scoped",L="[\\x20\\t\\r\\n\\f]",M="(?:\\\\.|[\\w-]|[^\\x00-\\xa0])+",N=M.replace("w","w#"),O="\\["+L+"*("+M+")(?:"+L+"*([*^$|!~]?=)"+L+"*(?:'((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\"|("+N+"))|)"+L+"*\\]",P=":("+M+")(?:\\((('((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\")|((?:\\\\.|[^\\\\()[\\]]|"+O+")*)|.*)\\)|)",Q=new RegExp(L+"+","g"),R=new RegExp("^"+L+"+|((?:^|[^\\\\])(?:\\\\.)*)"+L+"+$","g"),S=new RegExp("^"+L+"*,"+L+"*"),T=new RegExp("^"+L+"*([>+~]|"+L+")"+L+"*"),U=new RegExp("="+L+"*([^\\]'\"]*?)"+L+"*\\]","g"),V=new RegExp(P),W=new RegExp("^"+N+"$"),X={ID:new RegExp("^#("+M+")"),CLASS:new RegExp("^\\.("+M+")"),TAG:new RegExp("^("+M.replace("w","w*")+")"),ATTR:new RegExp("^"+O),PSEUDO:new RegExp("^"+P),CHILD:new RegExp("^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\("+L+"*(even|odd|(([+-]|)(\\d*)n|)"+L+"*(?:([+-]|)"+L+"*(\\d+)|))"+L+"*\\)|)","i"),bool:new RegExp("^(?:"+K+")$","i"),needsContext:new RegExp("^"+L+"*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\("+L+"*((?:-\\d)?\\d*)"+L+"*\\)|)(?=[^-]|$)","i")},Y=/^(?:input|select|textarea|button)$/i,Z=/^h\d$/i,$=/^[^{]+\{\s*\[native \w/,_=/^(?:#([\w-]+)|(\w+)|\.([\w-]+))$/,aa=/[+~]/,ba=/'|\\/g,ca=new RegExp("\\\\([\\da-f]{1,6}"+L+"?|("+L+")|.)","ig"),da=function(a,b,c){var d="0x"+b-65536;return d!==d||c?b:0>d?String.fromCharCode(d+65536):String.fromCharCode(d>>10|55296,1023&d|56320)},ea=function(){m()};try{H.apply(E=I.call(v.childNodes),v.childNodes),E[v.childNodes.length].nodeType}catch(fa){H={apply:E.length?function(a,b){G.apply(a,I.call(b))}:function(a,b){var c=a.length,d=0;while(a[c++]=b[d++]);a.length=c-1}}}function ga(a,b,d,e){var f,h,j,k,l,o,r,s,w,x;if((b?b.ownerDocument||b:v)!==n&&m(b),b=b||n,d=d||[],k=b.nodeType,"string"!=typeof a||!a||1!==k&&9!==k&&11!==k)return d;if(!e&&p){if(11!==k&&(f=_.exec(a)))if(j=f[1]){if(9===k){if(h=b.getElementById(j),!h||!h.parentNode)return d;if(h.id===j)return d.push(h),d}else if(b.ownerDocument&&(h=b.ownerDocument.getElementById(j))&&t(b,h)&&h.id===j)return d.push(h),d}else{if(f[2])return H.apply(d,b.getElementsByTagName(a)),d;if((j=f[3])&&c.getElementsByClassName)return H.apply(d,b.getElementsByClassName(j)),d}if(c.qsa&&(!q||!q.test(a))){if(s=r=u,w=b,x=1!==k&&a,1===k&&"object"!==b.nodeName.toLowerCase()){o=g(a),(r=b.getAttribute("id"))?s=r.replace(ba,"\\$&"):b.setAttribute("id",s),s="[id='"+s+"'] ",l=o.length;while(l--)o[l]=s+ra(o[l]);w=aa.test(a)&&pa(b.parentNode)||b,x=o.join(",")}if(x)try{return H.apply(d,w.querySelectorAll(x)),d}catch(y){}finally{r||b.removeAttribute("id")}}}return i(a.replace(R,"$1"),b,d,e)}function ha(){var a=[];function b(c,e){return a.push(c+" ")>d.cacheLength&&delete b[a.shift()],b[c+" "]=e}return b}function ia(a){return a[u]=!0,a}function ja(a){var b=n.createElement("div");try{return!!a(b)}catch(c){return!1}finally{b.parentNode&&b.parentNode.removeChild(b),b=null}}function ka(a,b){var c=a.split("|"),e=a.length;while(e--)d.attrHandle[c[e]]=b}function la(a,b){var c=b&&a,d=c&&1===a.nodeType&&1===b.nodeType&&(~b.sourceIndex||C)-(~a.sourceIndex||C);if(d)return d;if(c)while(c=c.nextSibling)if(c===b)return-1;return a?1:-1}function ma(a){return function(b){var c=b.nodeName.toLowerCase();return"input"===c&&b.type===a}}function na(a){return function(b){var c=b.nodeName.toLowerCase();return("input"===c||"button"===c)&&b.type===a}}function oa(a){return ia(function(b){return b=+b,ia(function(c,d){var e,f=a([],c.length,b),g=f.length;while(g--)c[e=f[g]]&&(c[e]=!(d[e]=c[e]))})})}function pa(a){return a&&"undefined"!=typeof a.getElementsByTagName&&a}c=ga.support={},f=ga.isXML=function(a){var b=a&&(a.ownerDocument||a).documentElement;return b?"HTML"!==b.nodeName:!1},m=ga.setDocument=function(a){var b,e,g=a?a.ownerDocument||a:v;return g!==n&&9===g.nodeType&&g.documentElement?(n=g,o=g.documentElement,e=g.defaultView,e&&e!==e.top&&(e.addEventListener?e.addEventListener("unload",ea,!1):e.attachEvent&&e.attachEvent("onunload",ea)),p=!f(g),c.attributes=ja(function(a){return a.className="i",!a.getAttribute("className")}),c.getElementsByTagName=ja(function(a){return a.appendChild(g.createComment("")),!a.getElementsByTagName("*").length}),c.getElementsByClassName=$.test(g.getElementsByClassName),c.getById=ja(function(a){return o.appendChild(a).id=u,!g.getElementsByName||!g.getElementsByName(u).length}),c.getById?(d.find.ID=function(a,b){if("undefined"!=typeof b.getElementById&&p){var c=b.getElementById(a);return c&&c.parentNode?[c]:[]}},d.filter.ID=function(a){var b=a.replace(ca,da);return function(a){return a.getAttribute("id")===b}}):(delete d.find.ID,d.filter.ID=function(a){var b=a.replace(ca,da);return function(a){var c="undefined"!=typeof a.getAttributeNode&&a.getAttributeNode("id");return c&&c.value===b}}),d.find.TAG=c.getElementsByTagName?function(a,b){return"undefined"!=typeof b.getElementsByTagName?b.getElementsByTagName(a):c.qsa?b.querySelectorAll(a):void 0}:function(a,b){var c,d=[],e=0,f=b.getElementsByTagName(a);if("*"===a){while(c=f[e++])1===c.nodeType&&d.push(c);return d}return f},d.find.CLASS=c.getElementsByClassName&&function(a,b){return p?b.getElementsByClassName(a):void 0},r=[],q=[],(c.qsa=$.test(g.querySelectorAll))&&(ja(function(a){o.appendChild(a).innerHTML="<a id='"+u+"'></a><select id='"+u+"-\f]' msallowcapture=''><option selected=''></option></select>",a.querySelectorAll("[msallowcapture^='']").length&&q.push("[*^$]="+L+"*(?:''|\"\")"),a.querySelectorAll("[selected]").length||q.push("\\["+L+"*(?:value|"+K+")"),a.querySelectorAll("[id~="+u+"-]").length||q.push("~="),a.querySelectorAll(":checked").length||q.push(":checked"),a.querySelectorAll("a#"+u+"+*").length||q.push(".#.+[+~]")}),ja(function(a){var b=g.createElement("input");b.setAttribute("type","hidden"),a.appendChild(b).setAttribute("name","D"),a.querySelectorAll("[name=d]").length&&q.push("name"+L+"*[*^$|!~]?="),a.querySelectorAll(":enabled").length||q.push(":enabled",":disabled"),a.querySelectorAll("*,:x"),q.push(",.*:")})),(c.matchesSelector=$.test(s=o.matches||o.webkitMatchesSelector||o.mozMatchesSelector||o.oMatchesSelector||o.msMatchesSelector))&&ja(function(a){c.disconnectedMatch=s.call(a,"div"),s.call(a,"[s!='']:x"),r.push("!=",P)}),q=q.length&&new RegExp(q.join("|")),r=r.length&&new RegExp(r.join("|")),b=$.test(o.compareDocumentPosition),t=b||$.test(o.contains)?function(a,b){var c=9===a.nodeType?a.documentElement:a,d=b&&b.parentNode;return a===d||!(!d||1!==d.nodeType||!(c.contains?c.contains(d):a.compareDocumentPosition&&16&a.compareDocumentPosition(d)))}:function(a,b){if(b)while(b=b.parentNode)if(b===a)return!0;return!1},B=b?function(a,b){if(a===b)return l=!0,0;var d=!a.compareDocumentPosition-!b.compareDocumentPosition;return d?d:(d=(a.ownerDocument||a)===(b.ownerDocument||b)?a.compareDocumentPosition(b):1,1&d||!c.sortDetached&&b.compareDocumentPosition(a)===d?a===g||a.ownerDocument===v&&t(v,a)?-1:b===g||b.ownerDocument===v&&t(v,b)?1:k?J(k,a)-J(k,b):0:4&d?-1:1)}:function(a,b){if(a===b)return l=!0,0;var c,d=0,e=a.parentNode,f=b.parentNode,h=[a],i=[b];if(!e||!f)return a===g?-1:b===g?1:e?-1:f?1:k?J(k,a)-J(k,b):0;if(e===f)return la(a,b);c=a;while(c=c.parentNode)h.unshift(c);c=b;while(c=c.parentNode)i.unshift(c);while(h[d]===i[d])d++;return d?la(h[d],i[d]):h[d]===v?-1:i[d]===v?1:0},g):n},ga.matches=function(a,b){return ga(a,null,null,b)},ga.matchesSelector=function(a,b){if((a.ownerDocument||a)!==n&&m(a),b=b.replace(U,"='$1']"),!(!c.matchesSelector||!p||r&&r.test(b)||q&&q.test(b)))try{var d=s.call(a,b);if(d||c.disconnectedMatch||a.document&&11!==a.document.nodeType)return d}catch(e){}return ga(b,n,null,[a]).length>0},ga.contains=function(a,b){return(a.ownerDocument||a)!==n&&m(a),t(a,b)},ga.attr=function(a,b){(a.ownerDocument||a)!==n&&m(a);var e=d.attrHandle[b.toLowerCase()],f=e&&D.call(d.attrHandle,b.toLowerCase())?e(a,b,!p):void 0;return void 0!==f?f:c.attributes||!p?a.getAttribute(b):(f=a.getAttributeNode(b))&&f.specified?f.value:null},ga.error=function(a){throw new Error("Syntax error, unrecognized expression: "+a)},ga.uniqueSort=function(a){var b,d=[],e=0,f=0;if(l=!c.detectDuplicates,k=!c.sortStable&&a.slice(0),a.sort(B),l){while(b=a[f++])b===a[f]&&(e=d.push(f));while(e--)a.splice(d[e],1)}return k=null,a},e=ga.getText=function(a){var b,c="",d=0,f=a.nodeType;if(f){if(1===f||9===f||11===f){if("string"==typeof a.textContent)return a.textContent;for(a=a.firstChild;a;a=a.nextSibling)c+=e(a)}else if(3===f||4===f)return a.nodeValue}else while(b=a[d++])c+=e(b);return c},d=ga.selectors={cacheLength:50,createPseudo:ia,match:X,attrHandle:{},find:{},relative:{">":{dir:"parentNode",first:!0}," ":{dir:"parentNode"},"+":{dir:"previousSibling",first:!0},"~":{dir:"previousSibling"}},preFilter:{ATTR:function(a){return a[1]=a[1].replace(ca,da),a[3]=(a[3]||a[4]||a[5]||"").replace(ca,da),"~="===a[2]&&(a[3]=" "+a[3]+" "),a.slice(0,4)},CHILD:function(a){return a[1]=a[1].toLowerCase(),"nth"===a[1].slice(0,3)?(a[3]||ga.error(a[0]),a[4]=+(a[4]?a[5]+(a[6]||1):2*("even"===a[3]||"odd"===a[3])),a[5]=+(a[7]+a[8]||"odd"===a[3])):a[3]&&ga.error(a[0]),a},PSEUDO:function(a){var b,c=!a[6]&&a[2];return X.CHILD.test(a[0])?null:(a[3]?a[2]=a[4]||a[5]||"":c&&V.test(c)&&(b=g(c,!0))&&(b=c.indexOf(")",c.length-b)-c.length)&&(a[0]=a[0].slice(0,b),a[2]=c.slice(0,b)),a.slice(0,3))}},filter:{TAG:function(a){var b=a.replace(ca,da).toLowerCase();return"*"===a?function(){return!0}:function(a){return a.nodeName&&a.nodeName.toLowerCase()===b}},CLASS:function(a){var b=y[a+" "];return b||(b=new RegExp("(^|"+L+")"+a+"("+L+"|$)"))&&y(a,function(a){return b.test("string"==typeof a.className&&a.className||"undefined"!=typeof a.getAttribute&&a.getAttribute("class")||"")})},ATTR:function(a,b,c){return function(d){var e=ga.attr(d,a);return null==e?"!="===b:b?(e+="","="===b?e===c:"!="===b?e!==c:"^="===b?c&&0===e.indexOf(c):"*="===b?c&&e.indexOf(c)>-1:"$="===b?c&&e.slice(-c.length)===c:"~="===b?(" "+e.replace(Q," ")+" ").indexOf(c)>-1:"|="===b?e===c||e.slice(0,c.length+1)===c+"-":!1):!0}},CHILD:function(a,b,c,d,e){var f="nth"!==a.slice(0,3),g="last"!==a.slice(-4),h="of-type"===b;return 1===d&&0===e?function(a){return!!a.parentNode}:function(b,c,i){var j,k,l,m,n,o,p=f!==g?"nextSibling":"previousSibling",q=b.parentNode,r=h&&b.nodeName.toLowerCase(),s=!i&&!h;if(q){if(f){while(p){l=b;while(l=l[p])if(h?l.nodeName.toLowerCase()===r:1===l.nodeType)return!1;o=p="only"===a&&!o&&"nextSibling"}return!0}if(o=[g?q.firstChild:q.lastChild],g&&s){k=q[u]||(q[u]={}),j=k[a]||[],n=j[0]===w&&j[1],m=j[0]===w&&j[2],l=n&&q.childNodes[n];while(l=++n&&l&&l[p]||(m=n=0)||o.pop())if(1===l.nodeType&&++m&&l===b){k[a]=[w,n,m];break}}else if(s&&(j=(b[u]||(b[u]={}))[a])&&j[0]===w)m=j[1];else while(l=++n&&l&&l[p]||(m=n=0)||o.pop())if((h?l.nodeName.toLowerCase()===r:1===l.nodeType)&&++m&&(s&&((l[u]||(l[u]={}))[a]=[w,m]),l===b))break;return m-=e,m===d||m%d===0&&m/d>=0}}},PSEUDO:function(a,b){var c,e=d.pseudos[a]||d.setFilters[a.toLowerCase()]||ga.error("unsupported pseudo: "+a);return e[u]?e(b):e.length>1?(c=[a,a,"",b],d.setFilters.hasOwnProperty(a.toLowerCase())?ia(function(a,c){var d,f=e(a,b),g=f.length;while(g--)d=J(a,f[g]),a[d]=!(c[d]=f[g])}):function(a){return e(a,0,c)}):e}},pseudos:{not:ia(function(a){var b=[],c=[],d=h(a.replace(R,"$1"));return d[u]?ia(function(a,b,c,e){var f,g=d(a,null,e,[]),h=a.length;while(h--)(f=g[h])&&(a[h]=!(b[h]=f))}):function(a,e,f){return b[0]=a,d(b,null,f,c),b[0]=null,!c.pop()}}),has:ia(function(a){return function(b){return ga(a,b).length>0}}),contains:ia(function(a){return a=a.replace(ca,da),function(b){return(b.textContent||b.innerText||e(b)).indexOf(a)>-1}}),lang:ia(function(a){return W.test(a||"")||ga.error("unsupported lang: "+a),a=a.replace(ca,da).toLowerCase(),function(b){var c;do if(c=p?b.lang:b.getAttribute("xml:lang")||b.getAttribute("lang"))return c=c.toLowerCase(),c===a||0===c.indexOf(a+"-");while((b=b.parentNode)&&1===b.nodeType);return!1}}),target:function(b){var c=a.location&&a.location.hash;return c&&c.slice(1)===b.id},root:function(a){return a===o},focus:function(a){return a===n.activeElement&&(!n.hasFocus||n.hasFocus())&&!!(a.type||a.href||~a.tabIndex)},enabled:function(a){return a.disabled===!1},disabled:function(a){return a.disabled===!0},checked:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&!!a.checked||"option"===b&&!!a.selected},selected:function(a){return a.parentNode&&a.parentNode.selectedIndex,a.selected===!0},empty:function(a){for(a=a.firstChild;a;a=a.nextSibling)if(a.nodeType<6)return!1;return!0},parent:function(a){return!d.pseudos.empty(a)},header:function(a){return Z.test(a.nodeName)},input:function(a){return Y.test(a.nodeName)},button:function(a){var b=a.nodeName.toLowerCase();return"input"===b&&"button"===a.type||"button"===b},text:function(a){var b;return"input"===a.nodeName.toLowerCase()&&"text"===a.type&&(null==(b=a.getAttribute("type"))||"text"===b.toLowerCase())},first:oa(function(){return[0]}),last:oa(function(a,b){return[b-1]}),eq:oa(function(a,b,c){return[0>c?c+b:c]}),even:oa(function(a,b){for(var c=0;b>c;c+=2)a.push(c);return a}),odd:oa(function(a,b){for(var c=1;b>c;c+=2)a.push(c);return a}),lt:oa(function(a,b,c){for(var d=0>c?c+b:c;--d>=0;)a.push(d);return a}),gt:oa(function(a,b,c){for(var d=0>c?c+b:c;++d<b;)a.push(d);return a})}},d.pseudos.nth=d.pseudos.eq;for(b in{radio:!0,checkbox:!0,file:!0,password:!0,image:!0})d.pseudos[b]=ma(b);for(b in{submit:!0,reset:!0})d.pseudos[b]=na(b);function qa(){}qa.prototype=d.filters=d.pseudos,d.setFilters=new qa,g=ga.tokenize=function(a,b){var c,e,f,g,h,i,j,k=z[a+" "];if(k)return b?0:k.slice(0);h=a,i=[],j=d.preFilter;while(h){(!c||(e=S.exec(h)))&&(e&&(h=h.slice(e[0].length)||h),i.push(f=[])),c=!1,(e=T.exec(h))&&(c=e.shift(),f.push({value:c,type:e[0].replace(R," ")}),h=h.slice(c.length));for(g in d.filter)!(e=X[g].exec(h))||j[g]&&!(e=j[g](e))||(c=e.shift(),f.push({value:c,type:g,matches:e}),h=h.slice(c.length));if(!c)break}return b?h.length:h?ga.error(a):z(a,i).slice(0)};function ra(a){for(var b=0,c=a.length,d="";c>b;b++)d+=a[b].value;return d}function sa(a,b,c){var d=b.dir,e=c&&"parentNode"===d,f=x++;return b.first?function(b,c,f){while(b=b[d])if(1===b.nodeType||e)return a(b,c,f)}:function(b,c,g){var h,i,j=[w,f];if(g){while(b=b[d])if((1===b.nodeType||e)&&a(b,c,g))return!0}else while(b=b[d])if(1===b.nodeType||e){if(i=b[u]||(b[u]={}),(h=i[d])&&h[0]===w&&h[1]===f)return j[2]=h[2];if(i[d]=j,j[2]=a(b,c,g))return!0}}}function ta(a){return a.length>1?function(b,c,d){var e=a.length;while(e--)if(!a[e](b,c,d))return!1;return!0}:a[0]}function ua(a,b,c){for(var d=0,e=b.length;e>d;d++)ga(a,b[d],c);return c}function va(a,b,c,d,e){for(var f,g=[],h=0,i=a.length,j=null!=b;i>h;h++)(f=a[h])&&(!c||c(f,d,e))&&(g.push(f),j&&b.push(h));return g}function wa(a,b,c,d,e,f){return d&&!d[u]&&(d=wa(d)),e&&!e[u]&&(e=wa(e,f)),ia(function(f,g,h,i){var j,k,l,m=[],n=[],o=g.length,p=f||ua(b||"*",h.nodeType?[h]:h,[]),q=!a||!f&&b?p:va(p,m,a,h,i),r=c?e||(f?a:o||d)?[]:g:q;if(c&&c(q,r,h,i),d){j=va(r,n),d(j,[],h,i),k=j.length;while(k--)(l=j[k])&&(r[n[k]]=!(q[n[k]]=l))}if(f){if(e||a){if(e){j=[],k=r.length;while(k--)(l=r[k])&&j.push(q[k]=l);e(null,r=[],j,i)}k=r.length;while(k--)(l=r[k])&&(j=e?J(f,l):m[k])>-1&&(f[j]=!(g[j]=l))}}else r=va(r===g?r.splice(o,r.length):r),e?e(null,g,r,i):H.apply(g,r)})}function xa(a){for(var b,c,e,f=a.length,g=d.relative[a[0].type],h=g||d.relative[" "],i=g?1:0,k=sa(function(a){return a===b},h,!0),l=sa(function(a){return J(b,a)>-1},h,!0),m=[function(a,c,d){var e=!g&&(d||c!==j)||((b=c).nodeType?k(a,c,d):l(a,c,d));return b=null,e}];f>i;i++)if(c=d.relative[a[i].type])m=[sa(ta(m),c)];else{if(c=d.filter[a[i].type].apply(null,a[i].matches),c[u]){for(e=++i;f>e;e++)if(d.relative[a[e].type])break;return wa(i>1&&ta(m),i>1&&ra(a.slice(0,i-1).concat({value:" "===a[i-2].type?"*":""})).replace(R,"$1"),c,e>i&&xa(a.slice(i,e)),f>e&&xa(a=a.slice(e)),f>e&&ra(a))}m.push(c)}return ta(m)}function ya(a,b){var c=b.length>0,e=a.length>0,f=function(f,g,h,i,k){var l,m,o,p=0,q="0",r=f&&[],s=[],t=j,u=f||e&&d.find.TAG("*",k),v=w+=null==t?1:Math.random()||.1,x=u.length;for(k&&(j=g!==n&&g);q!==x&&null!=(l=u[q]);q++){if(e&&l){m=0;while(o=a[m++])if(o(l,g,h)){i.push(l);break}k&&(w=v)}c&&((l=!o&&l)&&p--,f&&r.push(l))}if(p+=q,c&&q!==p){m=0;while(o=b[m++])o(r,s,g,h);if(f){if(p>0)while(q--)r[q]||s[q]||(s[q]=F.call(i));s=va(s)}H.apply(i,s),k&&!f&&s.length>0&&p+b.length>1&&ga.uniqueSort(i)}return k&&(w=v,j=t),r};return c?ia(f):f}return h=ga.compile=function(a,b){var c,d=[],e=[],f=A[a+" "];if(!f){b||(b=g(a)),c=b.length;while(c--)f=xa(b[c]),f[u]?d.push(f):e.push(f);f=A(a,ya(e,d)),f.selector=a}return f},i=ga.select=function(a,b,e,f){var i,j,k,l,m,n="function"==typeof a&&a,o=!f&&g(a=n.selector||a);if(e=e||[],1===o.length){if(j=o[0]=o[0].slice(0),j.length>2&&"ID"===(k=j[0]).type&&c.getById&&9===b.nodeType&&p&&d.relative[j[1].type]){if(b=(d.find.ID(k.matches[0].replace(ca,da),b)||[])[0],!b)return e;n&&(b=b.parentNode),a=a.slice(j.shift().value.length)}i=X.needsContext.test(a)?0:j.length;while(i--){if(k=j[i],d.relative[l=k.type])break;if((m=d.find[l])&&(f=m(k.matches[0].replace(ca,da),aa.test(j[0].type)&&pa(b.parentNode)||b))){if(j.splice(i,1),a=f.length&&ra(j),!a)return H.apply(e,f),e;break}}}return(n||h(a,o))(f,b,!p,e,aa.test(a)&&pa(b.parentNode)||b),e},c.sortStable=u.split("").sort(B).join("")===u,c.detectDuplicates=!!l,m(),c.sortDetached=ja(function(a){return 1&a.compareDocumentPosition(n.createElement("div"))}),ja(function(a){return a.innerHTML="<a href='#'></a>","#"===a.firstChild.getAttribute("href")})||ka("type|href|height|width",function(a,b,c){return c?void 0:a.getAttribute(b,"type"===b.toLowerCase()?1:2)}),c.attributes&&ja(function(a){return a.innerHTML="<input/>",a.firstChild.setAttribute("value",""),""===a.firstChild.getAttribute("value")})||ka("value",function(a,b,c){return c||"input"!==a.nodeName.toLowerCase()?void 0:a.defaultValue}),ja(function(a){return null==a.getAttribute("disabled")})||ka(K,function(a,b,c){var d;return c?void 0:a[b]===!0?b.toLowerCase():(d=a.getAttributeNode(b))&&d.specified?d.value:null}),ga}(a);m.find=s,m.expr=s.selectors,m.expr[":"]=m.expr.pseudos,m.unique=s.uniqueSort,m.text=s.getText,m.isXMLDoc=s.isXML,m.contains=s.contains;var t=m.expr.match.needsContext,u=/^<(\w+)\s*\/?>(?:<\/\1>|)$/,v=/^.[^:#\[\.,]*$/;function w(a,b,c){if(m.isFunction(b))return m.grep(a,function(a,d){return!!b.call(a,d,a)!==c});if(b.nodeType)return m.grep(a,function(a){return a===b!==c});if("string"==typeof b){if(v.test(b))return m.filter(b,a,c);b=m.filter(b,a)}return m.grep(a,function(a){return m.inArray(a,b)>=0!==c})}m.filter=function(a,b,c){var d=b[0];return c&&(a=":not("+a+")"),1===b.length&&1===d.nodeType?m.find.matchesSelector(d,a)?[d]:[]:m.find.matches(a,m.grep(b,function(a){return 1===a.nodeType}))},m.fn.extend({find:function(a){var b,c=[],d=this,e=d.length;if("string"!=typeof a)return this.pushStack(m(a).filter(function(){for(b=0;e>b;b++)if(m.contains(d[b],this))return!0}));for(b=0;e>b;b++)m.find(a,d[b],c);return c=this.pushStack(e>1?m.unique(c):c),c.selector=this.selector?this.selector+" "+a:a,c},filter:function(a){return this.pushStack(w(this,a||[],!1))},not:function(a){return this.pushStack(w(this,a||[],!0))},is:function(a){return!!w(this,"string"==typeof a&&t.test(a)?m(a):a||[],!1).length}});var x,y=a.document,z=/^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]*))$/,A=m.fn.init=function(a,b){var c,d;if(!a)return this;if("string"==typeof a){if(c="<"===a.charAt(0)&&">"===a.charAt(a.length-1)&&a.length>=3?[null,a,null]:z.exec(a),!c||!c[1]&&b)return!b||b.jquery?(b||x).find(a):this.constructor(b).find(a);if(c[1]){if(b=b instanceof m?b[0]:b,m.merge(this,m.parseHTML(c[1],b&&b.nodeType?b.ownerDocument||b:y,!0)),u.test(c[1])&&m.isPlainObject(b))for(c in b)m.isFunction(this[c])?this[c](b[c]):this.attr(c,b[c]);return this}if(d=y.getElementById(c[2]),d&&d.parentNode){if(d.id!==c[2])return x.find(a);this.length=1,this[0]=d}return this.context=y,this.selector=a,this}return a.nodeType?(this.context=this[0]=a,this.length=1,this):m.isFunction(a)?"undefined"!=typeof x.ready?x.ready(a):a(m):(void 0!==a.selector&&(this.selector=a.selector,this.context=a.context),m.makeArray(a,this))};A.prototype=m.fn,x=m(y);var B=/^(?:parents|prev(?:Until|All))/,C={children:!0,contents:!0,next:!0,prev:!0};m.extend({dir:function(a,b,c){var d=[],e=a[b];while(e&&9!==e.nodeType&&(void 0===c||1!==e.nodeType||!m(e).is(c)))1===e.nodeType&&d.push(e),e=e[b];return d},sibling:function(a,b){for(var c=[];a;a=a.nextSibling)1===a.nodeType&&a!==b&&c.push(a);return c}}),m.fn.extend({has:function(a){var b,c=m(a,this),d=c.length;return this.filter(function(){for(b=0;d>b;b++)if(m.contains(this,c[b]))return!0})},closest:function(a,b){for(var c,d=0,e=this.length,f=[],g=t.test(a)||"string"!=typeof a?m(a,b||this.context):0;e>d;d++)for(c=this[d];c&&c!==b;c=c.parentNode)if(c.nodeType<11&&(g?g.index(c)>-1:1===c.nodeType&&m.find.matchesSelector(c,a))){f.push(c);break}return this.pushStack(f.length>1?m.unique(f):f)},index:function(a){return a?"string"==typeof a?m.inArray(this[0],m(a)):m.inArray(a.jquery?a[0]:a,this):this[0]&&this[0].parentNode?this.first().prevAll().length:-1},add:function(a,b){return this.pushStack(m.unique(m.merge(this.get(),m(a,b))))},addBack:function(a){return this.add(null==a?this.prevObject:this.prevObject.filter(a))}});function D(a,b){do a=a[b];while(a&&1!==a.nodeType);return a}m.each({parent:function(a){var b=a.parentNode;return b&&11!==b.nodeType?b:null},parents:function(a){return m.dir(a,"parentNode")},parentsUntil:function(a,b,c){return m.dir(a,"parentNode",c)},next:function(a){return D(a,"nextSibling")},prev:function(a){return D(a,"previousSibling")},nextAll:function(a){return m.dir(a,"nextSibling")},prevAll:function(a){return m.dir(a,"previousSibling")},nextUntil:function(a,b,c){return m.dir(a,"nextSibling",c)},prevUntil:function(a,b,c){return m.dir(a,"previousSibling",c)},siblings:function(a){return m.sibling((a.parentNode||{}).firstChild,a)},children:function(a){return m.sibling(a.firstChild)},contents:function(a){return m.nodeName(a,"iframe")?a.contentDocument||a.contentWindow.document:m.merge([],a.childNodes)}},function(a,b){m.fn[a]=function(c,d){var e=m.map(this,b,c);return"Until"!==a.slice(-5)&&(d=c),d&&"string"==typeof d&&(e=m.filter(d,e)),this.length>1&&(C[a]||(e=m.unique(e)),B.test(a)&&(e=e.reverse())),this.pushStack(e)}});var E=/\S+/g,F={};function G(a){var b=F[a]={};return m.each(a.match(E)||[],function(a,c){b[c]=!0}),b}m.Callbacks=function(a){a="string"==typeof a?F[a]||G(a):m.extend({},a);var b,c,d,e,f,g,h=[],i=!a.once&&[],j=function(l){for(c=a.memory&&l,d=!0,f=g||0,g=0,e=h.length,b=!0;h&&e>f;f++)if(h[f].apply(l[0],l[1])===!1&&a.stopOnFalse){c=!1;break}b=!1,h&&(i?i.length&&j(i.shift()):c?h=[]:k.disable())},k={add:function(){if(h){var d=h.length;!function f(b){m.each(b,function(b,c){var d=m.type(c);"function"===d?a.unique&&k.has(c)||h.push(c):c&&c.length&&"string"!==d&&f(c)})}(arguments),b?e=h.length:c&&(g=d,j(c))}return this},remove:function(){return h&&m.each(arguments,function(a,c){var d;while((d=m.inArray(c,h,d))>-1)h.splice(d,1),b&&(e>=d&&e--,f>=d&&f--)}),this},has:function(a){return a?m.inArray(a,h)>-1:!(!h||!h.length)},empty:function(){return h=[],e=0,this},disable:function(){return h=i=c=void 0,this},disabled:function(){return!h},lock:function(){return i=void 0,c||k.disable(),this},locked:function(){return!i},fireWith:function(a,c){return!h||d&&!i||(c=c||[],c=[a,c.slice?c.slice():c],b?i.push(c):j(c)),this},fire:function(){return k.fireWith(this,arguments),this},fired:function(){return!!d}};return k},m.extend({Deferred:function(a){var b=[["resolve","done",m.Callbacks("once memory"),"resolved"],["reject","fail",m.Callbacks("once memory"),"rejected"],["notify","progress",m.Callbacks("memory")]],c="pending",d={state:function(){return c},always:function(){return e.done(arguments).fail(arguments),this},then:function(){var a=arguments;return m.Deferred(function(c){m.each(b,function(b,f){var g=m.isFunction(a[b])&&a[b];e[f[1]](function(){var a=g&&g.apply(this,arguments);a&&m.isFunction(a.promise)?a.promise().done(c.resolve).fail(c.reject).progress(c.notify):c[f[0]+"With"](this===d?c.promise():this,g?[a]:arguments)})}),a=null}).promise()},promise:function(a){return null!=a?m.extend(a,d):d}},e={};return d.pipe=d.then,m.each(b,function(a,f){var g=f[2],h=f[3];d[f[1]]=g.add,h&&g.add(function(){c=h},b[1^a][2].disable,b[2][2].lock),e[f[0]]=function(){return e[f[0]+"With"](this===e?d:this,arguments),this},e[f[0]+"With"]=g.fireWith}),d.promise(e),a&&a.call(e,e),e},when:function(a){var b=0,c=d.call(arguments),e=c.length,f=1!==e||a&&m.isFunction(a.promise)?e:0,g=1===f?a:m.Deferred(),h=function(a,b,c){return function(e){b[a]=this,c[a]=arguments.length>1?d.call(arguments):e,c===i?g.notifyWith(b,c):--f||g.resolveWith(b,c)}},i,j,k;if(e>1)for(i=new Array(e),j=new Array(e),k=new Array(e);e>b;b++)c[b]&&m.isFunction(c[b].promise)?c[b].promise().done(h(b,k,c)).fail(g.reject).progress(h(b,j,i)):--f;return f||g.resolveWith(k,c),g.promise()}});var H;m.fn.ready=function(a){return m.ready.promise().done(a),this},m.extend({isReady:!1,readyWait:1,holdReady:function(a){a?m.readyWait++:m.ready(!0)},ready:function(a){if(a===!0?!--m.readyWait:!m.isReady){if(!y.body)return setTimeout(m.ready);m.isReady=!0,a!==!0&&--m.readyWait>0||(H.resolveWith(y,[m]),m.fn.triggerHandler&&(m(y).triggerHandler("ready"),m(y).off("ready")))}}});function I(){y.addEventListener?(y.removeEventListener("DOMContentLoaded",J,!1),a.removeEventListener("load",J,!1)):(y.detachEvent("onreadystatechange",J),a.detachEvent("onload",J))}function J(){(y.addEventListener||"load"===event.type||"complete"===y.readyState)&&(I(),m.ready())}m.ready.promise=function(b){if(!H)if(H=m.Deferred(),"complete"===y.readyState)setTimeout(m.ready);else if(y.addEventListener)y.addEventListener("DOMContentLoaded",J,!1),a.addEventListener("load",J,!1);else{y.attachEvent("onreadystatechange",J),a.attachEvent("onload",J);var c=!1;try{c=null==a.frameElement&&y.documentElement}catch(d){}c&&c.doScroll&&!function e(){if(!m.isReady){try{c.doScroll("left")}catch(a){return setTimeout(e,50)}I(),m.ready()}}()}return H.promise(b)};var K="undefined",L;for(L in m(k))break;k.ownLast="0"!==L,k.inlineBlockNeedsLayout=!1,m(function(){var a,b,c,d;c=y.getElementsByTagName("body")[0],c&&c.style&&(b=y.createElement("div"),d=y.createElement("div"),d.style.cssText="position:absolute;border:0;width:0;height:0;top:0;left:-9999px",c.appendChild(d).appendChild(b),typeof b.style.zoom!==K&&(b.style.cssText="display:inline;margin:0;border:0;padding:1px;width:1px;zoom:1",k.inlineBlockNeedsLayout=a=3===b.offsetWidth,a&&(c.style.zoom=1)),c.removeChild(d))}),function(){var a=y.createElement("div");if(null==k.deleteExpando){k.deleteExpando=!0;try{delete a.test}catch(b){k.deleteExpando=!1}}a=null}(),m.acceptData=function(a){var b=m.noData[(a.nodeName+" ").toLowerCase()],c=+a.nodeType||1;return 1!==c&&9!==c?!1:!b||b!==!0&&a.getAttribute("classid")===b};var M=/^(?:\{[\w\W]*\}|\[[\w\W]*\])$/,N=/([A-Z])/g;function O(a,b,c){if(void 0===c&&1===a.nodeType){var d="data-"+b.replace(N,"-$1").toLowerCase();if(c=a.getAttribute(d),"string"==typeof c){try{c="true"===c?!0:"false"===c?!1:"null"===c?null:+c+""===c?+c:M.test(c)?m.parseJSON(c):c}catch(e){}m.data(a,b,c)}else c=void 0}return c}function P(a){var b;for(b in a)if(("data"!==b||!m.isEmptyObject(a[b]))&&"toJSON"!==b)return!1;
@@ -307,79 +307,208 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">purrrplus</h1>
-<h4 class="date"><em>2018-06-10</em></h4>
+<h1 class="title toc-ignore">developing_data_science_PCK</h1>
+<h4 class="date"><em>2018-01-15</em></h4>
 
 </div>
 
 
-<p><a href="http://stenhaug.github.io/purrrplus"><strong>See the package website.</strong></a></p>
-<div id="background" class="section level3">
-<h3>Background</h3>
-<p>In my work, I often need to run a function in R many times (for example in running a simulation). If any of these runs throw an error, all progress is lost. The tidyverse package purrrr provides functionality like <em>safely</em> which helps but makes subsequent analysis tricky. As a remedy, I wrote the package purrrplus which allows for running a function safely with easy analysis of errors and results.</p>
+<div id="teaching-is-decision-making" class="section level1">
+<h1>Teaching is decision making</h1>
+<p>There’s a moment from teaching high school math in North Carolina that I remember especially vividly. It was an ordinary Thursday afternoon, and I felt exhausted. In the back corner a few girls were off-task, two boys were yelling out, asking to go to the bathroom for the 2nd time in the 50 minute period, the lesson I was teaching for the first time in my life wasn’t working, and my old whiteboard marker was nearly out of ink. How can I get the girls to get on-task? Do I let the boys go to the bathroom? I can’t possibly say no, can I? Am I soft for always saying yes? Should I re-explain sin waves again or let them get onto the worksheet? Is the worksheet too hard? Do I leave the room in search of a better whiteboard marker?</p>
+<p>I paused and shaking my head subtly, thought to myself — holy cow, teaching involves making A LOT of decisions.</p>
+<p>Since that day, in the back of my mind I’ve always thought of teaching as the sum of thousands, if not millions, of decisions. Better teachers make better decisions on average. Becoming better at teaching means making better decisions.</p>
+<p>I’m now a PhD student in a school of education, focusing on teaching data science. I teach a course mostly for Masters students. For example, here’s an objective we cover: Students will be able to reshape a data set and explain the relative advantages of a dataset in different shapes.</p>
+<p>I’ve never taught this objective before. How can I make good decisions in teaching this objective? How can I choose examples, explanations, and activities that help my students master this objective? What misconceptions might they develop?</p>
+<p>Not so long ago, I thought I needed experiments to answer these questions. We could come up with a few different explanations and then randomize students to each of them to see which one works best. I’ve since realized that isn’t a good idea — if you list out of all of the decisions a teacher has to make, an experiment for each of them quickly becomes unwieldy.</p>
+<p>In this old way of thinking, it’s bad if teachers make decisions based only on their intuition. I don’t think so anymore. With all of the decisions they make, teachers must make most of their decisions based on intuition.</p>
+<p>It’s useful to break down a teacher’s intuition into two parts: general teaching intuition (should students work in groups?) and teaching intution related to a specific content objective (how should I explain reshaping data?).</p>
+<p>Shulman named this pedagoglical content knowledge in his 1986 paper and described it as the following:</p>
+<blockquote>
+<p>“that special amalgam of content and pedagogy that is uniquely the province of teachers, their own special form of professional understanding”</p>
+</blockquote>
+<p>It’s useful perhaps to name the enemy. Most often it’s lack of empathy for what it’s like to be new to something. The teacher has seen a concept many times and can’t quite remember what it’s like to not get it or to have fragile understanding of prerequesite knowledge. This has been referred to as the expert blind spot or the curse of knowledge, and its why teachers are sometimes bad at knowing whats best for their students.</p>
+<p>I see pedagogical content knowledge as the antidote to the expert blind spot, and as one of the essential ingredients to effective teaching. Here’s my question then:</p>
 </div>
-<div id="example" class="section level3">
-<h3>Example</h3>
-<pre class="r"><code>library(purrrplus)
-library(tidyverse) # most useful with the tidyverse</code></pre>
-<p>Imagine you have a function (which returns a named list or a named vector and might throw an error):</p>
-<pre class="r"><code>calculate_if_positive &lt;- function(a, b){
-  if(a &lt; 0 &amp; b &lt; 0) {stop(&quot;Both numbers are negative.&quot;)}
-  else if(a &lt; 0) {stop(&quot;Just the first number is negative&quot;)}
-  else if(b &lt; 0) {stop(&quot;Just the second number is negative&quot;)}
-  
-  list(add = a + b,
-       subtract = a - b,
-       multiply = a * b,
-       divide = a / b)
-}</code></pre>
-<p>And you want to apply this function to each row of a data frame (which might contain irrelevant variables):</p>
-<pre class="r"><code>(numbers &lt;- data_frame(a = c(-1, 0, 1, 2),
-                      b = c(2, 1, 0, -1),
-                      irrelevant = c(&quot;minneapolis&quot;, &quot;st_paul&quot;, &quot;minneapolis&quot;, &quot;st_paul&quot;)))</code></pre>
-<pre><code>## Warning: `data_frame()` is deprecated, use `tibble()`.
-## This warning is displayed once per session.</code></pre>
-<pre><code>## # A tibble: 4 x 3
-##       a     b irrelevant 
-##   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;      
-## 1    -1     2 minneapolis
-## 2     0     1 st_paul    
-## 3     1     0 minneapolis
-## 4     2    -1 st_paul</code></pre>
-<p>pmap_safely adds an error and a result column (which come from applying the function) to the inputted data frame.</p>
-<pre class="r"><code>(output &lt;- pmap_safely(numbers, calculate_if_positive))</code></pre>
-<pre><code>## Note that the function does not use the following variables: irrelevant</code></pre>
-<pre><code>## # A tibble: 4 x 5
-##       a     b irrelevant  error                              result    
-##   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;       &lt;chr&gt;                              &lt;list&gt;    
-## 1    -1     2 minneapolis Just the first number is negative  &lt;NULL&gt;    
-## 2     0     1 st_paul     &lt;NA&gt;                               &lt;list [4]&gt;
-## 3     1     0 minneapolis &lt;NA&gt;                               &lt;list [4]&gt;
-## 4     2    -1 st_paul     Just the second number is negative &lt;NULL&gt;</code></pre>
-<p>get_errors allows for quick analysis of errors:</p>
-<pre class="r"><code>get_errors(output)</code></pre>
-<pre><code>## # A tibble: 10 x 5
-##    variable   value       n_errors count error_rate
-##    &lt;chr&gt;      &lt;chr&gt;          &lt;int&gt; &lt;int&gt;      &lt;dbl&gt;
-##  1 a          -1                 1     1        1  
-##  2 a          2                  1     1        1  
-##  3 a          0                  0     1        0  
-##  4 a          1                  0     1        0  
-##  5 b          -1                 1     1        1  
-##  6 b          2                  1     1        1  
-##  7 b          0                  0     1        0  
-##  8 b          1                  0     1        0  
-##  9 irrelevant minneapolis        1     2        0.5
-## 10 irrelevant st_paul            1     2        0.5</code></pre>
-<p>get_results filters out rows with errors and unnests results such that each item in the list that the function returns has its own column:</p>
-<pre class="r"><code>get_results(output)</code></pre>
-<pre><code>## Removed 2 errors out of 4 rows.</code></pre>
-<pre><code>## # A tibble: 2 x 7
-##       a     b irrelevant add_result subtract_result multiply_result
-##   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;           &lt;dbl&gt;           &lt;dbl&gt;           &lt;dbl&gt;
-## 1     0     1 st_paul             1              -1               0
-## 2     1     0 minneapol…          1               1               0
-## # … with 1 more variable: divide_result &lt;dbl&gt;</code></pre>
+<div id="how-can-teachers-develop-pedagogical-content-knowledge-in-data-science" class="section level1">
+<h1>How can teachers develop pedagogical content knowledge in data science?</h1>
+<p>For such a fundamental question, research offers surprisingly little practical advice. In ___ paper summarized.</p>
+</div>
+<div id="how-i-developed-pedagogical-content-knowledge-in-under-an-hour" class="section level1">
+<h1>How I developed pedagogical content knowledge in under an hour</h1>
+<p>Imagine you are teaching spread and gather for reshaping data next week.</p>
+<p>You need to quickly build empathy for what it’s like to be a beginner having never seen these functions before. You need to understand the misconceptions that come up. And the explanations and exercises that help students move towards mastery. You can’t think your way there because you are in the expert blind spot.</p>
+<p>I didn’t find that research offered useful advice. I had an idea though — I remembered a lesson from taking the startup garage course: Conduct user interviews with prototypes to generate discussion. The prototypes can be incredibly simple, even a piece of paper with just a few sketches on them.</p>
+<p>This idea is similar to the idea of a think aloud protocol which educators have been using for many years. However, I’ve never seen think aloud protocols used to develop a teacher’s pedagogical content knowledge. Instead, student think alouds are typically done to validate assessment items (e.g. does the item require use of the targeted skill), and teacher think alouds are a teaching technique used to model how to approach a problem.</p>
+<p>To test this idea, I built a prompt for the spread and gather functions. Here’s the first part (you can see the <a href="https://docs.google.com/document/d/19UC8zJhia_wgE_yvkaFf61PL6XjJZiNxLTzPuONhuCs/edit?usp=sharing">full prompt here</a>):</p>
+<div id="the-prompt" class="section level2">
+<h2>The prompt</h2>
+<p><em>I printed out the following prompt and talked to students about it one at a time to better understand how to teaching reshaping data in R.</em></p>
+<p>Marva has data on the number of hamsters, cages, and hamster wheels that a couple of his classmates have. The data is stored in a data frame called hamsters_data_frame. You can think of hamsters_data_frame as a small spreadsheet:</p>
+<pre class="r"><code>hamsters_data_frame</code></pre>
+<pre><code>## # A tibble: 6 x 3
+##   name   what     count
+##   &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
+## 1 Amy    hamsters     2
+## 2 Amy    cages        4
+## 3 Amy    wheels       1
+## 4 Bianca hamsters     8
+## 5 Bianca cages        3
+## 6 Bianca wheels       2</code></pre>
+<p>Marva wants to change the shape of his data. To do so, she ran the following code:</p>
+<pre class="r"><code>spread(data = hamsters_data_frame, key = what, value = count)</code></pre>
+<pre><code>## # A tibble: 2 x 4
+##   name   cages hamsters wheels
+##   &lt;chr&gt;  &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;
+## 1 Amy        4        2      1
+## 2 Bianca     3        8      2</code></pre>
+<p><strong>Question 1:</strong> Explain what Marva’s code did. Please explain in detail. You might even draw a picture…</p>
+</div>
+<div id="lessons-learned-from-using-the-prompt" class="section level2">
+<h2>Lessons learned from using the prompt</h2>
+<p>I listened as a few students responded to this prompt. I was shocked at how quickly my vision for teaching spread and gather developed. The first thing I noticed was the different words that students used to describe what spread does to a dataset: collapse, reshape, transpose, spreadsheet, arrange, wide, and long. The second thing I noticed is that each of the students I talked to either didn’t understand or misconception around the idea of a row identifier. One student actually asked this question directly: “How does R know to collapse the name column?”. (INPUT IMAGE OF RESPONSE)</p>
+<p>There was also confusion on how the output dataset was sorted. Was Amy the first row because she appears first in the input dataset or because she is first in alphabetically?</p>
+</div>
+</div>
+<div id="the-idea-of-a-simplest-possible-unambiguous-example-spue" class="section level1">
+<h1>The idea of a simplest possible unambiguous example (spue)</h1>
+<p>The students responses made me realize more generally what the goal of my prompt was. I wanted a simple example that made the spread function clear by looking at the input and output datasets. Similarly, if you are teaching someone multiplication for the first time, you probably aren’t going to show them 112 * 101 = 11312 first because it’s too complex. Similarly, you probably wouldn’t show them 2 * 2 = 4 because it’s difficult to distinguish from addition. The best first example for teaching multiplation is 2 * 3 = 6. It’s simple and unambiguous.</p>
+<p>I haven’t heard a name for these first examples used to introduce a concept, so for lack of a better term, let’s call them simplest possible umambiguous examples (or spues).</p>
+<p>Talking to students made me realize that a single example of spread isn’t sufficient for students to understand it. So instead I seek a set of spues such that for a student to create a mental model that inputs every example’s input to its output, there’s a very high likelihood they’ll have generated an unflawed mental model.</p>
+<div id="set-of-spues-for-the-spread-function" class="section level3">
+<h3>Set of spues for the spread function</h3>
+<div id="example-1-basic-use-of-spread" class="section level4">
+<h4>Example 1: Basic use of spread</h4>
+<pre class="r"><code>hamsters_data_frame</code></pre>
+<pre><code>## # A tibble: 6 x 3
+##   name   what     count
+##   &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
+## 1 Zach   hamsters     2
+## 2 Zach   cages        4
+## 3 Zach   wheels       1
+## 4 Bianca hamsters     8
+## 5 Bianca cages        3
+## 6 Bianca wheels       2</code></pre>
+<pre class="r"><code>spread(data = hamsters_data_frame, key = what, value = count)</code></pre>
+<pre><code>## # A tibble: 2 x 4
+##   name   cages hamsters wheels
+##   &lt;chr&gt;  &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;
+## 1 Bianca     3        8      2
+## 2 Zach       4        2      1</code></pre>
+</div>
+<div id="example-2-uh-oh-duplicate-row-identifiers" class="section level4">
+<h4>Example 2: Uh oh, duplicate row identifiers</h4>
+<p>In talking to students, this was the key misconception I observed students having. In spread, any columns not provided as the key or value columns are implicitly used to identify rows. This is very subtle and confusing for students. To make matters worse, other versions of reshape functions in R, stata, and other languages uusally have the user specify explicitly the row identifying variables.</p>
+<pre class="r"><code>hamsters_data_frame</code></pre>
+<pre><code>## # A tibble: 7 x 3
+##   name   what     count
+##   &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
+## 1 Zach   hamsters     2
+## 2 Zach   cages        4
+## 3 Zach   wheels       1
+## 4 Bianca hamsters     8
+## 5 Bianca cages        3
+## 6 Bianca wheels       2
+## 7 Zach   hamsters     3</code></pre>
+<pre class="r"><code>spread(data = hamsters_data_frame, key = what, value = count)</code></pre>
+<pre><code>## Error: Duplicate identifiers for rows (1, 7)</code></pre>
+</div>
+<div id="example-3-fixing-duplicate-identifiers-by-adding-a-column" class="section level4">
+<h4>Example 3: Fixing duplicate identifiers by adding a column</h4>
+<pre class="r"><code>hamsters_data_frame &lt;- 
+   tibble(
+      name = c(&quot;Zach&quot;, &quot;Zach&quot;, &quot;Zach&quot;, &quot;Bianca&quot;, &quot;Bianca&quot;, &quot;Bianca&quot;, &quot;Zach&quot;),
+      id = c(1, 1, 1, 2, 2, 2, 3),
+      what = c(&quot;hamsters&quot;, &quot;cages&quot;, &quot;wheels&quot;, &quot;hamsters&quot;, &quot;cages&quot;, &quot;wheels&quot;, &quot;hamsters&quot;),
+      count = c(2, 4, 1, 8, 3, 2, 3)
+   )</code></pre>
+<pre class="r"><code>hamsters_data_frame</code></pre>
+<pre><code>## # A tibble: 7 x 4
+##   name      id what     count
+##   &lt;chr&gt;  &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt;
+## 1 Zach       1 hamsters     2
+## 2 Zach       1 cages        4
+## 3 Zach       1 wheels       1
+## 4 Bianca     2 hamsters     8
+## 5 Bianca     2 cages        3
+## 6 Bianca     2 wheels       2
+## 7 Zach       3 hamsters     3</code></pre>
+<pre class="r"><code>spread(data = hamsters_data_frame, key = what, value = count)</code></pre>
+<pre><code>## # A tibble: 3 x 5
+##   name      id cages hamsters wheels
+##   &lt;chr&gt;  &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;
+## 1 Bianca     2     3        8      2
+## 2 Zach       1     4        2      1
+## 3 Zach       3    NA        3     NA</code></pre>
+</div>
+<div id="example-4-driving-the-point-home-with-a-common-mistake" class="section level4">
+<h4>Example 4: Driving the point home with a common mistake</h4>
+<pre class="r"><code>hamsters_data_frame &lt;- 
+   tibble(
+      name = c(&quot;Zach&quot;, &quot;Zach&quot;, &quot;Zach&quot;, &quot;Bianca&quot;, &quot;Bianca&quot;, &quot;Bianca&quot;, &quot;Zach&quot;),
+      id = rnorm(7),
+      what = c(&quot;hamsters&quot;, &quot;cages&quot;, &quot;wheels&quot;, &quot;hamsters&quot;, &quot;cages&quot;, &quot;wheels&quot;, &quot;hamsters&quot;),
+      count = c(2, 4, 1, 8, 3, 2, 3)
+   )</code></pre>
+<pre class="r"><code>hamsters_data_frame</code></pre>
+<pre><code>## # A tibble: 7 x 4
+##   name       id what     count
+##   &lt;chr&gt;   &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt;
+## 1 Zach   -1.15  hamsters     2
+## 2 Zach    0.347 cages        4
+## 3 Zach    0.946 wheels       1
+## 4 Bianca -1.75  hamsters     8
+## 5 Bianca -1.53  cages        3
+## 6 Bianca -0.747 wheels       2
+## 7 Zach    0.184 hamsters     3</code></pre>
+<pre class="r"><code>spread(data = hamsters_data_frame, key = what, value = count)</code></pre>
+<pre><code>## # A tibble: 7 x 5
+##   name       id cages hamsters wheels
+##   &lt;chr&gt;   &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;
+## 1 Bianca -1.75     NA        8     NA
+## 2 Bianca -1.53      3       NA     NA
+## 3 Bianca -0.747    NA       NA      2
+## 4 Zach   -1.15     NA        2     NA
+## 5 Zach    0.184    NA        3     NA
+## 6 Zach    0.347     4       NA     NA
+## 7 Zach    0.946    NA       NA      1</code></pre>
+</div>
+</div>
+</div>
+<div id="a-recipe-for-teaching-effectively" class="section level1">
+<h1>A recipe for teaching effectively</h1>
+<p>a design class though of build something really simple and put it in front of people and it will generate discussion.</p>
+<p>So I wrote a super simple example of what spread does. And I gave it to students. They wrote their responses and we talked about those responses.</p>
+<p>I put myself in this situation</p>
+<p>Not so long ago, I thought of a teacher’s intuition</p>
+<p>Teaching is hard. I Teach a data science course in this area. It seems to me that teachining is the sum of thousnda of individual decisions: asf aksdf adsfk asdkfj asdfk.</p>
+<p>one can think of teaching as thousands of decisions. millions maybe.</p>
+<p>i had this idea of we need evidence. we need to test everything. but then i realized two things</p>
+<ol style="list-style-type: decimal">
+<li><p>a lot of what we know from other stuff holds</p></li>
+<li><p>testing everything becomes unwieldy</p></li>
+</ol>
+<p>so then using intuition isn’t the enemy, teachers are going to use it. how can we help them develop it. researchers call this PCK.</p>
+<p>so how can we help teachers develop PCK? It’s useful perhaps to name the enemy. The enemy is the expert blindspots. Or in other words lack of empathy for what its like to not understand something.</p>
+<p>Maybe I’m explaining something and I go too quickly or don’t offer practice on it? Why? Because I don’t fully appreciate what its like to not know and the practices necessary.</p>
+<p>We need to help teachers develop this empathy or intuiton of PCK or whatever you want to call it.</p>
+<p>But doing that is super hard. For what seems to be such an essential piece of a student’s education, research on developing PCK isn’t compelling. This paper provides a meta-study which I’d summarize as many studies have found ways of improving PCK by doing things like …, but the studies aren’t specific about what works.</p>
+<p>I’m interested in something like what if someone needs to teach a class of students how to reshape data in R (e.g. go from wide to long) next week. What can they do to prepare now? I believe the first thing they do should be to build an empathy for what it’s like to not understand that concept.</p>
+<p>I looked and I looked and I looked and I couldn’t find any suggestions for what to build that empathy quickly. I remembered a lesson from a design class though of build something really simple and put it in front of people and it will generate discussion.</p>
+<p>So I wrote a super simple example of what spread does. And I gave it to students. They wrote their responses and we talked about those responses.</p>
+<p>Students used all sorts of vocabulary. Could have been reshape_spread or reshape_gather.</p>
+<p>This student made me realize what I now believe is the key misconception or shortcoming in almost everyone’s understanding. When you use the spread function you specify the key and and value columns and nothing else. What happens to all of those other columns? They implicitly become the row identifiers. Almost no one understand that. And other implementations of reshapes has one specify those explicitly.</p>
+<p>I also realized this idea of a SPUE in creating it. For example, if you were teaching multiplication to a student for the first time you’d… then you’d move onto the edge of cases of multiply by 1 and 0 and then larger numbers. You might even ask students why 2 x 2 might be confusing.</p>
+<p>It’s hard to show everything, like this idea of implicit row identification, with just one SPUE. So maybe the idea I’m after is a set of SPUEs such that in order for students to learn how the inputs lead to all of the outputs, they must hold a nearly correct mental model with high probability.</p>
+<p>Consider these examples:</p>
+<p>For students to fully grasp, they must see it orders. That these become row identifiers. That when a value is missing it fills it in with NA. That if there are multiple values for a cell it returns an error. That for additional values of the column they just keep getting spread out wide.</p>
+<p>So here’s my rough draft suggestion for what I’d do if I had to teach a data science concept next week.</p>
+<ol style="list-style-type: decimal">
+<li><p>be sure i fully understand it</p></li>
+<li><p>make some example of using it and then find students and conduct a talk aloud about it</p></li>
+<li><p>create what I’m calling a set of SPUEs.</p></li>
+</ol>
+<p>I think if you get to that point the rest of what to do unfolds fairly well. You can use that set of SPUEs as inspiration for a short-lecture on how to use the method. It can also be the inspiration for exercises for students to work on in groups. And it can certainly be inspiration for writing assessment items on the concept.</p>
 </div>
 
 

@@ -2,61 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ben Stenhaug</title>
-    <link>/</link>
+    <link>https://www.benstenhaug.com/</link>
     <description>Recent content on Ben Stenhaug</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.benstenhaug.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Making R code over 100 times faster — an example</title>
-      <link>/posts/making_r_code_over_100_times_faster_an_example/</link>
+      <link>https://www.benstenhaug.com/posts/making_r_code_over_100_times_faster_an_example/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/making_r_code_over_100_times_faster_an_example/</guid>
+      <guid>https://www.benstenhaug.com/posts/making_r_code_over_100_times_faster_an_example/</guid>
       <description>You can find the blog post on the Stanford libraries webpage here.
 Background As a data science software consultant for the Stanford libraries, I often hear people complain that R is slow. I wrote this blog post to demonstrate that R code can oftentimes be re-written to be much, much faster.</description>
     </item>
     
     <item>
       <title>Research on Teaching Data Science</title>
-      <link>/posts/research_on_teaching_data_science/</link>
+      <link>https://www.benstenhaug.com/posts/research_on_teaching_data_science/</link>
       <pubDate>Sat, 29 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/posts/research_on_teaching_data_science/</guid>
+      <guid>https://www.benstenhaug.com/posts/research_on_teaching_data_science/</guid>
       <description>I wrote this as part of taking Hadley Wickham&amp;rsquo;s Readings in Applied Data Science course at Stanford in the spring of 2018.
 Introduction As data science skills become increasingly important, the teaching of data science becomes increasingly valuable. In the context of data science, I think of teaching not as the traditional process of talking at a whiteboard or grading worksheets, but instead as the process of creating environments and designing experiences that leads to measurable learning for students.</description>
     </item>
     
     <item>
       <title>purrrplus</title>
-      <link>/projects/purrrplus/</link>
+      <link>https://www.benstenhaug.com/projects/purrrplus/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/projects/purrrplus/</guid>
+      <guid>https://www.benstenhaug.com/projects/purrrplus/</guid>
       <description>See the package website.
 Background In my work, I often need to run a function in R many times (for example in running a simulation). If any of these runs throw an error, all progress is lost. The tidyverse package purrrr provides functionality like safely which helps but makes subsequent analysis tricky. As a remedy, I wrote the package purrrplus which allows for running a function safely with easy analysis of errors and results.</description>
     </item>
     
     <item>
+      <title>developing_data_science_PCK</title>
+      <link>https://www.benstenhaug.com/posts/data_science_pck/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.benstenhaug.com/posts/data_science_pck/</guid>
+      <description>Teaching is decision making There’s a moment from teaching high school math in North Carolina that I remember especially vividly. It was an ordinary Thursday afternoon, and I felt exhausted. In the back corner a few girls were off-task, two boys were yelling out, asking to go to the bathroom for the 2nd time in the 50 minute period, the lesson I was teaching for the first time in my life wasn’t working, and my old whiteboard marker was nearly out of ink.</description>
+    </item>
+    
+    <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://www.benstenhaug.com/about/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://www.benstenhaug.com/about/</guid>
       <description>I majored in statistics, economics, and mathematics at the University of Wisconsin-Madison. Following college, I nearly entered a PhD program in economics but instead joined Teach for America and served as a high school math teacher in Eastern North Carolina.
 I then worked for nearly 3 years at Khan Academy on math content (everything from middle school to AP Statistics and AP Calculus) that is still used by millions of students worldwide.</description>
     </item>
     
     <item>
       <title>teachR</title>
-      <link>/projects/teachr/</link>
+      <link>https://www.benstenhaug.com/projects/teachr/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/projects/teachr/</guid>
+      <guid>https://www.benstenhaug.com/projects/teachr/</guid>
       <description>You can find the curriculum here.
 Background After completing the Stanford Data Challenge Lab, I started to think about how I would teach R. To that end, I began making YouTube videos, writing articles, and designing exercises. This curriculum is unfinished for now but I plan to return to it in the future.
 If you only look at one piece of content, check out the 5 verbs of dplyr article.</description>
@@ -64,10 +73,10 @@ If you only look at one piece of content, check out the 5 verbs of dplyr article
     
     <item>
       <title> Ben, Ben, and Blue</title>
-      <link>/projects/benbenandblue/</link>
+      <link>https://www.benstenhaug.com/projects/benbenandblue/</link>
       <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/projects/benbenandblue/</guid>
+      <guid>https://www.benstenhaug.com/projects/benbenandblue/</guid>
       <description>I am very excited to tell you that Grant Sanderson (aka 3Blue1Brown), Ben Eater, and I are starting a podcast about education and whatever else comes to mind called Ben, Ben, and Blue.
  Overcast iTunes Spotify YouTube Google Play Stitcher Patreon RSS  </description>
     </item>
