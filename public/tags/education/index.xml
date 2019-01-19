@@ -2,23 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Education on Ben Stenhaug</title>
-    <link>/tags/education/</link>
+    <link>https://www.benstenhaug.com/tags/education/</link>
     <description>Recent content in Education on Ben Stenhaug</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/education/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.benstenhaug.com/tags/education/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Starting a podcast — Ben, Ben, and Blue</title>
-      <link>/posts/benbenandblue/</link>
-      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      <title>developing_data_science_PCK</title>
+      <link>https://www.benstenhaug.com/posts/data_science_pck/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/posts/benbenandblue/</guid>
-      <description>Introduction As data science skills become increasingly important, the teaching of data science becomes increasingly valuable. In the context of data science, I think of teaching not as the traditional process of talking at a whiteboard or grading worksheets, but instead as the process of creating environments and designing experiences that leads to measurable learning for students.
-As a matter of definition, I am interested in developing in students the ability to extract value out of data (which I’ll refer to as data science).</description>
+      <guid>https://www.benstenhaug.com/posts/data_science_pck/</guid>
+      <description>Teaching is decision making There’s a moment from teaching high school math in North Carolina that I remember especially vividly. It was an ordinary Thursday afternoon, and I felt exhausted. In the back corner a few girls were off-task, two boys were yelling out, asking to go to the bathroom for the 2nd time in the 50 minute period, the lesson I was teaching for the first time in my life wasn’t working, and my old whiteboard marker was nearly out of ink.</description>
     </item>
     
   </channel>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Packages on Ben Stenhaug</title>
-    <link>/tags/packages/</link>
+    <link>https://www.benstenhaug.com/tags/packages/</link>
     <description>Recent content in Packages on Ben Stenhaug</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/packages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.benstenhaug.com/tags/packages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>purrrplus</title>
-      <link>/projects/purrrplus/</link>
+      <link>https://www.benstenhaug.com/projects/purrrplus/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>/projects/purrrplus/</guid>
+      <guid>https://www.benstenhaug.com/projects/purrrplus/</guid>
       <description>See the package website.
 Background In my work, I often need to run a function in R many times (for example in running a simulation). If any of these runs throw an error, all progress is lost. The tidyverse package purrrr provides functionality like safely which helps but makes subsequent analysis tricky. As a remedy, I wrote the package purrrplus which allows for running a function safely with easy analysis of errors and results.</description>
     </item>
