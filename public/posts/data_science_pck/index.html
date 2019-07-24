@@ -10,11 +10,11 @@
 <meta name="description" content="Ben Stenhaug&#39;s personal website">
 <meta name="keywords" content="data,datascience,R,tidyverse,stanford,dssg,education,teaching,learning">
 
-<base href="https://www.benstenhaug.com">
+<base href="/">
 
 <title>Ben Stenhaug</title>
 
-<meta name="generator" content="Hugo 0.41" />
+<meta name="generator" content="Hugo 0.55.6" />
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://www.benstenhaug.com/css/main.css">
+<link rel="stylesheet" href="/css/main.css">
 
 
 
@@ -48,7 +48,10 @@
 </section>
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
-    <div id="teaching-is-decision-making" class="section level1">
+    
+
+
+<div id="teaching-is-decision-making" class="section level1">
 <h1>Teaching is decision making</h1>
 <p>There’s a moment from teaching high school math in North Carolina that I remember especially vividly. It was an ordinary Thursday afternoon, and I felt exhausted. In the back corner a few girls were off-task, two boys were yelling out, asking to go to the bathroom for the 2nd time in the 50 minute period, the lesson I was teaching for the first time in my life wasn’t working, and my old whiteboard marker was nearly out of ink. How can I get the girls to get on-task? Do I let the boys go to the bathroom? I can’t possibly say no, can I? Am I soft for always saying yes? Should I re-explain sin waves again or let them get onto the worksheet? Is the worksheet too hard? Do I leave the room in search of a better whiteboard marker?</p>
 <p>I paused and shaking my head subtly, thought to myself — holy cow, teaching involves making A LOT of decisions.</p>
@@ -81,6 +84,7 @@
 <p><em>I printed out the following prompt and talked to students about it one at a time to better understand how to teaching reshaping data in R.</em></p>
 <p>Marva has data on the number of hamsters, cages, and hamster wheels that a couple of his classmates have.
 The data is stored in a data frame called hamsters_data_frame. You can think of hamsters_data_frame as a small spreadsheet:</p>
+<pre class="r"><code>hamsters_data_frame</code></pre>
 <pre><code>## # A tibble: 6 x 3
 ##   name   what     count
 ##   &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
@@ -90,7 +94,7 @@ The data is stored in a data frame called hamsters_data_frame. You can think of 
 ## 4 Bianca hamsters     8
 ## 5 Bianca cages        3
 ## 6 Bianca wheels       2</code></pre>
-<p>Marva wants to change the shape of his data. To do so, he ran the following code:</p>
+<p>Marva wants to change the shape of his data. To do so, she ran the following code:</p>
 <pre class="r"><code>spread(data = hamsters_data_frame, key = what, value = count)</code></pre>
 <pre><code>## # A tibble: 2 x 4
 ##   name   cages hamsters wheels
@@ -102,14 +106,20 @@ The data is stored in a data frame called hamsters_data_frame. You can think of 
 <div id="lessons-learned-from-using-the-prompt" class="section level2">
 <h2>Lessons learned from using the prompt</h2>
 <p>I listened as a few students responded to this prompt. I was shocked at how quickly my vision for teaching spread and gather developed. The first thing I noticed was the different words that students used to describe what spread does to a dataset: collapse, reshape, transpose, spreadsheet, arrange, wide, and long. The second thing I noticed is that each of the students I talked to either didn’t understand or misconception around the idea of a row identifier. One student actually asked this question directly:
-“How does R know to collapse the name column?”.</p>
-<p>There was also confusion on how the output dataset was sorted. Was Amy the first row because she appears first in the input dataset or because she is first in alphabetical order?</p>
+“How does R know to collapse the name column?”. (INPUT IMAGE OF RESPONSE)</p>
+<p>There was also confusion on how the output dataset was sorted. Was Amy the first row because she appears first in the input dataset or because she is first in alphabetically?</p>
 </div>
 </div>
 <div id="the-idea-of-a-simplest-possible-unambiguous-example-spue" class="section level1">
 <h1>The idea of a simplest possible unambiguous example (spue)</h1>
 <p>The students responses made me realize more generally what the goal of my prompt was. I wanted a simple example that made the spread function clear by looking at the input and output datasets. Similarly, if you are teaching someone multiplication for the first time, you probably aren’t going to show them 112 * 101 = 11312 first because it’s too complex. Similarly, you probably wouldn’t show them 2 * 2 = 4 because it’s difficult to distinguish from addition. The best first example for teaching multiplation is 2 * 3 = 6. It’s simple and unambiguous.</p>
-<p>I haven’t a name for these first examples used to introduce a concept, so for lack of a better term, let’s call them simplest possible umambiguous examples (or spues).</p>
+<p>I haven’t heard a name for these first examples used to introduce a concept, so for lack of a better term, let’s call them simplest possible umambiguous examples (or spues).</p>
+<p>Talking to students made me realize that a single example of spread isn’t sufficient for students to understand it. So instead I seek a set of spues such that for a student to create a mental model that inputs every example’s input to its output, there’s a very high likelihood they’ll have generated an unflawed mental model.</p>
+<div id="set-of-spues-for-the-spread-function" class="section level3">
+<h3>Set of spues for the spread function</h3>
+<div id="example-1-basic-use-of-spread" class="section level4">
+<h4>Example 1: Basic use of spread</h4>
+<pre class="r"><code>hamsters_data_frame</code></pre>
 <pre><code>## # A tibble: 6 x 3
 ##   name   what     count
 ##   &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
@@ -119,11 +129,17 @@ The data is stored in a data frame called hamsters_data_frame. You can think of 
 ## 4 Bianca hamsters     8
 ## 5 Bianca cages        3
 ## 6 Bianca wheels       2</code></pre>
+<pre class="r"><code>spread(data = hamsters_data_frame, key = what, value = count)</code></pre>
 <pre><code>## # A tibble: 2 x 4
 ##   name   cages hamsters wheels
 ##   &lt;chr&gt;  &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;
 ## 1 Bianca     3        8      2
 ## 2 Zach       4        2      1</code></pre>
+</div>
+<div id="example-2-uh-oh-duplicate-row-identifiers" class="section level4">
+<h4>Example 2: Uh oh, duplicate row identifiers</h4>
+<p>In talking to students, this was the key misconception I observed students having. In spread, any columns not provided as the key or value columns are implicitly used to identify rows. This is very subtle and confusing for students. To make matters worse, other versions of reshape functions in R, stata, and other languages uusally have the user specify explicitly the row identifying variables.</p>
+<pre class="r"><code>hamsters_data_frame</code></pre>
 <pre><code>## # A tibble: 7 x 3
 ##   name   what     count
 ##   &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
@@ -134,49 +150,25 @@ The data is stored in a data frame called hamsters_data_frame. You can think of 
 ## 5 Bianca cages        3
 ## 6 Bianca wheels       2
 ## 7 Zach   hamsters     3</code></pre>
-<pre><code>## Error: Duplicate identifiers for rows (1, 7)
-## Backtrace:
-## [90m     [39m█
-## [90m  1. [39m├─base::local(...)
-## [90m  2. [39m│ └─base::eval.parent(substitute(eval(quote(expr), envir)))
-## [90m  3. [39m│   └─base::eval(expr, p)
-## [90m  4. [39m│     └─base::eval(expr, p)
-## [90m  5. [39m├─base::eval(...)
-## [90m  6. [39m│ └─base::eval(...)
-## [90m  7. [39m│   └─rmarkdown::render(...)
-## [90m  8. [39m│     └─knitr::knit(...)
-## [90m  9. [39m│       └─knitr:::process_file(text, output)
-## [90m 10. [39m│         ├─base::withCallingHandlers(...)
-## [90m 11. [39m│         ├─knitr:::process_group(group)
-## [90m 12. [39m│         └─knitr:::process_group.block(group)
-## [90m 13. [39m│           └─knitr:::call_block(x)
-## [90m 14. [39m│             └─knitr:::block_exec(params)
-## [90m 15. [39m│               ├─knitr:::in_dir(...)
-## [90m 16. [39m│               └─knitr:::evaluate(...)
-## [90m 17. [39m│                 └─evaluate::evaluate(...)
-## [90m 18. [39m│                   └─evaluate:::evaluate_call(...)
-## [90m 19. [39m│                     ├─evaluate:::timing_fn(...)
-## [90m 20. [39m│                     ├─evaluate:::handle(...)
-## [90m 21. [39m│                     │ └─base::try(f, silent = TRUE)
-## [90m 22. [39m│                     │   └─base::tryCatch(...)
-## [90m 23. [39m│                     │     └─base:::tryCatchList(expr, classes, parentenv, handlers)
-## [90m 24. [39m│                     │       └─base:::tryCatchOne(expr, names, parentenv, handlers[[1L]])
-## [90m 25. [39m│                     │         └─base:::doTryCatch(return(expr), name, parentenv, handler)
-## [90m 26. [39m│                     ├─base::withCallingHandlers(...)
-## [90m 27. [39m│                     ├─base::withVisible(eval(expr, envir, enclos))
-## [90m 28. [39m│                     └─base::eval(expr, envir, enclos)
-## [90m 29. [39m│                       └─base::eval(expr, envir, enclos)
-## [90m 30. [39m├─tidyr::spread(data = hamsters_data_frame, key = what, value = count)
-## [90m 31. [39m└─tidyr:::spread.data.frame(...)</code></pre>
+<pre class="r"><code>spread(data = hamsters_data_frame, key = what, value = count)</code></pre>
+<pre><code>## Warning: `rlang__backtrace_on_error` is no longer experimental.
+## It has been renamed to `rlang_backtrace_on_error`. Please update your RProfile.
+## This warning is displayed once per session.</code></pre>
+<pre><code>## Each row of output must be identified by a unique combination of keys.
+## Keys are shared for 2 rows:
+## * 1, 7
+## Do you need to create unique ID with tibble::rowid_to_column()?</code></pre>
+</div>
+<div id="example-3-fixing-duplicate-identifiers-by-adding-a-column" class="section level4">
+<h4>Example 3: Fixing duplicate identifiers by adding a column</h4>
 <pre class="r"><code>hamsters_data_frame &lt;- 
    tibble(
       name = c(&quot;Zach&quot;, &quot;Zach&quot;, &quot;Zach&quot;, &quot;Bianca&quot;, &quot;Bianca&quot;, &quot;Bianca&quot;, &quot;Zach&quot;),
       id = c(1, 1, 1, 2, 2, 2, 3),
       what = c(&quot;hamsters&quot;, &quot;cages&quot;, &quot;wheels&quot;, &quot;hamsters&quot;, &quot;cages&quot;, &quot;wheels&quot;, &quot;hamsters&quot;),
       count = c(2, 4, 1, 8, 3, 2, 3)
-   )
-
-hamsters_data_frame</code></pre>
+   )</code></pre>
+<pre class="r"><code>hamsters_data_frame</code></pre>
 <pre><code>## # A tibble: 7 x 4
 ##   name      id what     count
 ##   &lt;chr&gt;  &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt;
@@ -194,36 +186,40 @@ hamsters_data_frame</code></pre>
 ## 1 Bianca     2     3        8      2
 ## 2 Zach       1     4        2      1
 ## 3 Zach       3    NA        3     NA</code></pre>
+</div>
+<div id="example-4-driving-the-point-home-with-a-common-mistake" class="section level4">
+<h4>Example 4: Driving the point home with a common mistake</h4>
 <pre class="r"><code>hamsters_data_frame &lt;- 
    tibble(
       name = c(&quot;Zach&quot;, &quot;Zach&quot;, &quot;Zach&quot;, &quot;Bianca&quot;, &quot;Bianca&quot;, &quot;Bianca&quot;, &quot;Zach&quot;),
       id = rnorm(7),
       what = c(&quot;hamsters&quot;, &quot;cages&quot;, &quot;wheels&quot;, &quot;hamsters&quot;, &quot;cages&quot;, &quot;wheels&quot;, &quot;hamsters&quot;),
       count = c(2, 4, 1, 8, 3, 2, 3)
-   )
-
-hamsters_data_frame</code></pre>
+   )</code></pre>
+<pre class="r"><code>hamsters_data_frame</code></pre>
 <pre><code>## # A tibble: 7 x 4
 ##   name        id what     count
 ##   &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt;
-## 1 Zach    2.28   hamsters     2
-## 2 Zach    0.436  cages        4
-## 3 Zach   -1.04   wheels       1
-## 4 Bianca -1.10   hamsters     8
-## 5 Bianca  1.76   cages        3
-## 6 Bianca -0.0928 wheels       2
-## 7 Zach    0.724  hamsters     3</code></pre>
+## 1 Zach    0.141  hamsters     2
+## 2 Zach    0.868  cages        4
+## 3 Zach   -0.0347 wheels       1
+## 4 Bianca  2.15   hamsters     8
+## 5 Bianca  2.10   cages        3
+## 6 Bianca  1.55   wheels       2
+## 7 Zach    1.20   hamsters     3</code></pre>
 <pre class="r"><code>spread(data = hamsters_data_frame, key = what, value = count)</code></pre>
 <pre><code>## # A tibble: 7 x 5
 ##   name        id cages hamsters wheels
 ##   &lt;chr&gt;    &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;
-## 1 Bianca -1.10      NA        8     NA
-## 2 Bianca -0.0928    NA       NA      2
-## 3 Bianca  1.76       3       NA     NA
-## 4 Zach   -1.04      NA       NA      1
-## 5 Zach    0.436      4       NA     NA
-## 6 Zach    0.724     NA        3     NA
-## 7 Zach    2.28      NA        2     NA</code></pre>
+## 1 Bianca  1.55      NA       NA      2
+## 2 Bianca  2.10       3       NA     NA
+## 3 Bianca  2.15      NA        8     NA
+## 4 Zach   -0.0347    NA       NA      1
+## 5 Zach    0.141     NA        2     NA
+## 6 Zach    0.868      4       NA     NA
+## 7 Zach    1.20      NA        3     NA</code></pre>
+</div>
+</div>
 </div>
 <div id="a-recipe-for-teaching-effectively" class="section level1">
 <h1>A recipe for teaching effectively</h1>
@@ -281,10 +277,10 @@ hamsters_data_frame</code></pre>
   <span><a class="menu-item" href="/posts">posts</a></span>
   
   
-  <span><a class="menu-item" href="https://www.benstenhaug.com/posts/research_on_teaching_data_science/"> | next &gt;</a></span>
+  <span><a class="menu-item" href="/posts/research_on_teaching_data_science/"> | next &gt;</a></span>
   
   
-  <h4 class="text-center"><a class="menu-item" href="https://www.benstenhaug.com">home</a></h4>
+  <h4 class="text-center"><a class="menu-item" href="/">home</a></h4>
 </section>
 
 
@@ -313,7 +309,7 @@ hljs.initHighlightingOnLoad();
 
 
 
-<script>
+<script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -322,7 +318,7 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

@@ -2,41 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ben Stenhaug</title>
-    <link>https://www.benstenhaug.com/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Ben Stenhaug</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.benstenhaug.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Rstudio Conference 2019 Poster</title>
+      <link>/posts/rstudio_conf_2019_poster/</link>
+      <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/rstudio_conf_2019_poster/</guid>
+      <description>You can find the poster on GitHub here.
+Background I had the thrill of presenting a poster on improving data science education at Rstudio Conference 2019 in Austin, Texas. The best part about it was how many incredible people I met working hard on and thinking deeply about data science education.</description>
+    </item>
+    
+    <item>
       <title>Making R code over 100 times faster — an example</title>
-      <link>https://www.benstenhaug.com/posts/making_r_code_over_100_times_faster_an_example/</link>
+      <link>/posts/making_r_code_over_100_times_faster_an_example/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.benstenhaug.com/posts/making_r_code_over_100_times_faster_an_example/</guid>
+      <guid>/posts/making_r_code_over_100_times_faster_an_example/</guid>
       <description>You can find the blog post on the Stanford libraries webpage here.
 Background As a data science software consultant for the Stanford libraries, I often hear people complain that R is slow. I wrote this blog post to demonstrate that R code can oftentimes be re-written to be much, much faster.</description>
     </item>
     
     <item>
       <title>Research on Teaching Data Science</title>
-      <link>https://www.benstenhaug.com/posts/research_on_teaching_data_science/</link>
+      <link>/posts/research_on_teaching_data_science/</link>
       <pubDate>Sat, 29 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.benstenhaug.com/posts/research_on_teaching_data_science/</guid>
+      <guid>/posts/research_on_teaching_data_science/</guid>
       <description>I wrote this as part of taking Hadley Wickham&amp;rsquo;s Readings in Applied Data Science course at Stanford in the spring of 2018.
 Introduction As data science skills become increasingly important, the teaching of data science becomes increasingly valuable. In the context of data science, I think of teaching not as the traditional process of talking at a whiteboard or grading worksheets, but instead as the process of creating environments and designing experiences that leads to measurable learning for students.</description>
     </item>
     
     <item>
       <title>developing_data_science_PCK</title>
-      <link>https://www.benstenhaug.com/posts/data_science_pck/</link>
+      <link>/posts/data_science_pck/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.benstenhaug.com/posts/data_science_pck/</guid>
+      <guid>/posts/data_science_pck/</guid>
       <description>Teaching is decision making There’s a moment from teaching high school math in North Carolina that I remember especially vividly. It was an ordinary Thursday afternoon, and I felt exhausted. In the back corner a few girls were off-task, two boys were yelling out, asking to go to the bathroom for the 2nd time in the 50 minute period, the lesson I was teaching for the first time in my life wasn’t working, and my old whiteboard marker was nearly out of ink.</description>
     </item>
     

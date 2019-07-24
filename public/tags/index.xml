@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ben Stenhaug</title>
-    <link>https://www.benstenhaug.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Ben Stenhaug</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 15 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.benstenhaug.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Education</title>
-      <link>https://www.benstenhaug.com/tags/education/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.benstenhaug.com/tags/education/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Packages</title>
-      <link>https://www.benstenhaug.com/tags/packages/</link>
+      <link>/tags/packages/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.benstenhaug.com/tags/packages/</guid>
+      <guid>/tags/packages/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://www.benstenhaug.com/tags/r/</link>
+      <link>/tags/r/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.benstenhaug.com/tags/r/</guid>
+      <guid>/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tidyverse</title>
-      <link>https://www.benstenhaug.com/tags/tidyverse/</link>
+      <link>/tags/tidyverse/</link>
       <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.benstenhaug.com/tags/tidyverse/</guid>
+      <guid>/tags/tidyverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>/tags/education/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/education/</guid>
       <description></description>
     </item>
     

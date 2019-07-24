@@ -3,98 +3,103 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.benstenhaug.com/posts/making_r_code_over_100_times_faster_an_example/</loc>
+    <loc>/</loc>
+    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/rstudio_conf_2019_poster/</loc>
+    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/making_r_code_over_100_times_faster_an_example/</loc>
     <lastmod>2019-01-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.benstenhaug.com/posts/research_on_teaching_data_science/</loc>
+    <loc>/posts/research_on_teaching_data_science/</loc>
     <lastmod>2018-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.benstenhaug.com/projects/purrrplus/</loc>
+    <loc>/tags/packages/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tidyverse/</loc>
+    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/purrrplus/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.benstenhaug.com/posts/data_science_pck/</loc>
+    <loc>/tags/education/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/data_science_pck/</loc>
     <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.benstenhaug.com/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.benstenhaug.com/projects/teachr/</loc>
+    <loc>/categories/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/about/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/teachr/</loc>
     <lastmod>2018-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.benstenhaug.com/projects/benbenandblue/</loc>
+    <loc>/projects/benbenandblue/</loc>
     <lastmod>2017-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.benstenhaug.com/categories/about/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.benstenhaug.com/</loc>
-    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.benstenhaug.com/categories/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.benstenhaug.com/tags/education/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.benstenhaug.com/tags/packages/</loc>
-    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.benstenhaug.com/posts/</loc>
-    <lastmod>2019-01-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.benstenhaug.com/projects/</loc>
-    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.benstenhaug.com/tags/r/</loc>
-    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.benstenhaug.com/tags/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.benstenhaug.com/tags/tidyverse/</loc>
-    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

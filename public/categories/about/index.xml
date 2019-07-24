@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on Ben Stenhaug</title>
-    <link>https://www.benstenhaug.com/categories/about/</link>
-    <description>Recent content in About on Ben Stenhaug</description>
+    <title>about on Ben Stenhaug</title>
+    <link>/categories/about/</link>
+    <description>Recent content in about on Ben Stenhaug</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.benstenhaug.com/categories/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://www.benstenhaug.com/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.benstenhaug.com/about/</guid>
+      <guid>/about/</guid>
       <description>I majored in statistics, economics, and mathematics at the University of Wisconsin-Madison. Following college, I nearly entered a PhD program in economics but instead joined Teach for America and served as a high school math teacher in Eastern North Carolina.
 I then worked for nearly 3 years at Khan Academy on math content (everything from middle school to AP Statistics and AP Calculus) that is still used by millions of students worldwide.</description>
     </item>
