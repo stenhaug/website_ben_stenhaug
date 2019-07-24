@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Ben Stenhaug</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 18 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Developing data science pedagogical content knowledge</title>
+      <link>/posts/data_science_pck/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/data_science_pck/</guid>
+      <description>Teaching is decision making There’s a moment from teaching high school math in North Carolina that I remember especially vividly. It was an ordinary Thursday afternoon, and I felt exhausted. In the back corner a few girls were off-task, two boys were yelling out, asking to go to the bathroom for the 2nd time in the 50 minute period, the lesson I was teaching for the first time in my life wasn’t working, and my old whiteboard marker was nearly out of ink.</description>
+    </item>
     
     <item>
       <title>Rstudio Conference 2019 Poster</title>
@@ -39,15 +48,6 @@ Background As a data science software consultant for the Stanford libraries, I o
       <guid>/posts/research_on_teaching_data_science/</guid>
       <description>I wrote this as part of taking Hadley Wickham&amp;rsquo;s Readings in Applied Data Science course at Stanford in the spring of 2018.
 Introduction As data science skills become increasingly important, the teaching of data science becomes increasingly valuable. In the context of data science, I think of teaching not as the traditional process of talking at a whiteboard or grading worksheets, but instead as the process of creating environments and designing experiences that leads to measurable learning for students.</description>
-    </item>
-    
-    <item>
-      <title>developing_data_science_PCK</title>
-      <link>/posts/data_science_pck/</link>
-      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/data_science_pck/</guid>
-      <description>Teaching is decision making There’s a moment from teaching high school math in North Carolina that I remember especially vividly. It was an ordinary Thursday afternoon, and I felt exhausted. In the back corner a few girls were off-task, two boys were yelling out, asking to go to the bathroom for the 2nd time in the 50 minute period, the lesson I was teaching for the first time in my life wasn’t working, and my old whiteboard marker was nearly out of ink.</description>
     </item>
     
   </channel>

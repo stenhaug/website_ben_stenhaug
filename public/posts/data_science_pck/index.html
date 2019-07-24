@@ -41,7 +41,7 @@
 
 
 <header class="row text-left title">
-  <h1 class="title">developing_data_science_PCK</h1>
+  <h1 class="title">Developing data science pedagogical content knowledge</h1>
 </header>
 <section id="category-pane" class="row meta">
   
@@ -200,24 +200,24 @@ The data is stored in a data frame called hamsters_data_frame. You can think of 
 <pre><code>## # A tibble: 7 x 4
 ##   name        id what     count
 ##   &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt;
-## 1 Zach    0.141  hamsters     2
-## 2 Zach    0.868  cages        4
-## 3 Zach   -0.0347 wheels       1
-## 4 Bianca  2.15   hamsters     8
-## 5 Bianca  2.10   cages        3
-## 6 Bianca  1.55   wheels       2
-## 7 Zach    1.20   hamsters     3</code></pre>
+## 1 Zach    1.14   hamsters     2
+## 2 Zach   -1.30   cages        4
+## 3 Zach    0.152  wheels       1
+## 4 Bianca -0.250  hamsters     8
+## 5 Bianca  0.0273 cages        3
+## 6 Bianca  0.300  wheels       2
+## 7 Zach    0.329  hamsters     3</code></pre>
 <pre class="r"><code>spread(data = hamsters_data_frame, key = what, value = count)</code></pre>
 <pre><code>## # A tibble: 7 x 5
 ##   name        id cages hamsters wheels
 ##   &lt;chr&gt;    &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;
-## 1 Bianca  1.55      NA       NA      2
-## 2 Bianca  2.10       3       NA     NA
-## 3 Bianca  2.15      NA        8     NA
-## 4 Zach   -0.0347    NA       NA      1
-## 5 Zach    0.141     NA        2     NA
-## 6 Zach    0.868      4       NA     NA
-## 7 Zach    1.20      NA        3     NA</code></pre>
+## 1 Bianca -0.250     NA        8     NA
+## 2 Bianca  0.0273     3       NA     NA
+## 3 Bianca  0.300     NA       NA      2
+## 4 Zach   -1.30       4       NA     NA
+## 5 Zach    0.152     NA       NA      1
+## 6 Zach    0.329     NA        3     NA
+## 7 Zach    1.14      NA        2     NA</code></pre>
 </div>
 </div>
 </div>
@@ -273,11 +273,11 @@ The data is stored in a data frame called hamsters_data_frame. You can think of 
 <section id="menu-pane" class="row menu text-center">
   
   
+  <span><a class="menu-item" href="/posts/rstudio_conf_2019_poster/">&lt; prev | </a></span>
+  
   
   <span><a class="menu-item" href="/posts">posts</a></span>
   
-  
-  <span><a class="menu-item" href="/posts/research_on_teaching_data_science/"> | next &gt;</a></span>
   
   
   <h4 class="text-center"><a class="menu-item" href="/">home</a></h4>

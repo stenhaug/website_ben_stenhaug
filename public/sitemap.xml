@@ -4,13 +4,36 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/data_science_pck/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/education/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2019-01-18T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/r/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -42,18 +65,6 @@
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2018-06-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/tidyverse/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -62,17 +73,6 @@
   <url>
     <loc>/projects/purrrplus/</loc>
     <lastmod>2018-06-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/education/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/posts/data_science_pck/</loc>
-    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
