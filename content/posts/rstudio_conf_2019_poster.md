@@ -10,7 +10,7 @@ showcomments: yes
 showpagemeta: yes
 ---
     
-[**You can find the blog post on the Stanford libraries webpage here.**](https://github.com/stenhaug/shared/blob/master/Evidence%20based%20data%20science%20education.pdf)
+[**You can find the poster on GitHub here.**](https://github.com/stenhaug/shared/blob/master/Evidence%20based%20data%20science%20education.pdf)
 
 ### Background
 
