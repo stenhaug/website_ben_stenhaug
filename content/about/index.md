@@ -9,9 +9,9 @@ title = "About"
 showpagemeta = false
 +++
 
-I majored in statistics, economics, and mathematics at the University of Wisconsin-Madison. Following college, I nearly entered a PhD program in economics but instead joined Teach for America and served as a high school math teacher in Eastern North Carolina.
+I majored in statistics, economics, and mathematics at the University of Wisconsin-Madison. Following college, I taught high school math at Warren Early College High School in Warrenton, North Carolina as part of Teach for America.
 
-I then worked for nearly 3 years at Khan Academy on math content (everything from middle school to AP Statistics and AP Calculus) that is still used by millions of students worldwide.
+I then worked for nearly 3 years at Khan Academy on math content (everything from middle school to AP Calculus) that is still used by millions of students worldwide.
 
 Motivated by the possibility of leveraging the explosion of educational data gathered by organizations like Khan Academy, I joined the Stanford Graduate School of Education as a PhD student in 2016. I think about measuring test bias and data science for education and social good.
 
