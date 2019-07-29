@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Ben Stenhaug</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Investing for retirement — a simple example</title>
+      <link>/posts/investing_for_retirement/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/investing_for_retirement/</guid>
+      <description>There are many articles on things like roth vs. traditional IRAs. Very few actually walk through an example with numbers, which I find illustrative.
+An example Let&amp;rsquo;s take an example where I make 8k and can put my in money in a regular investment account, a roth ira, or a traditional ira. Assume that my tax rate is 25% (which is the same now, in the future, on capital gains etc.</description>
+    </item>
     
     <item>
       <title>Developing data science pedagogical content knowledge</title>
