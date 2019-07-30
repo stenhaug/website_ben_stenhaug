@@ -24,7 +24,7 @@ Let's take an example where I make 8k and can put my in money in a regular inves
 
 ## Summary
 
-The regular investment account is the worst because you have to pay taxes on capital gains in addition to income. The roth IRA is better than the traditional IRA because you can effectively contribute more money to it (the contribution limit is the same but after-tax dollars are worth more than before-tax dollars). Another advantage of the roth IRA not illustrated in this example is that you can take out the principle without a penalty (e.g. to buy a house).
+The regular investment account is the worst because you have to pay taxes on capital gains in addition to income. The real beauty of either a roth IRA, traditional IRA, or even a 401k for that matter is that you don't have to pay capital gains taxes. The roth IRA is better than the traditional IRA because you can effectively contribute more money to it (the contribution limit is the same but after-tax dollars are worth more than before-tax dollars). Another advantage of the roth IRA not illustrated in this example is that you can take out the principle without a penalty (e.g. to buy a house).
 
 The difference between an IRA and 401k is also often a point of confusion. A 401k has the same tax benefits of an IRA. The difference is that it has higher contributing limits but typically has worse investment options. With an IRA, you can choose whatever index fund you like. With a 401k, you're often limited to mutual funds with high expense ratios which [**compounds over time**](https://www.mymoneyblog.com/vanguard-mutual-fund-expense-ratio-changes.html). One hack is to contribute to a 401k and then [**roll it over to a roth IRA**](https://www.rothira.com/401k-rollover-options).
 
@@ -42,3 +42,10 @@ In general, the right option for most people is using their money in the followi
 
 5. Keep an eye on opportunities to rollover your 401k to your IRA (e.g. switching jobs)
 
+## Feedback
+
+I've shared this with a variety of friends. Here are a few of the valuable points they've made:
+
+Nate: If tax rates increase over time, then the roth IRA would be even a larger winner. One good thing about the traditional IRA is that it is taxed at the effective tax rate (the weighted average from your income bracket) as opposed to the roth IRA which is taxed at the marginal tax rate (which will be higher).
+
+Seth: You can't rollover a 401k directly to a roth IRA. You have to go 401k -> traditional IRA -> roth IRA which is known as a backdoor roth IRA conversion. Also, what's best depends on a prediction of future tax rates — in general, tax rates usually go up making the roth IRA even better. Also, some people talk about having both some money in roth IRA and traditional IRA as tax diversification not wanting to bet fully on tax rates being lower of higher in the future.

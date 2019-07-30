@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Ben Stenhaug</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 29 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The benefits of buying and holding</title>
+      <link>/posts/buying_and_holding/</link>
+      <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/buying_and_holding/</guid>
+      <description>I&amp;rsquo;ve always heard that it&amp;rsquo;s a good idea to buy and hold. I thought that this was a good idea because 1) long-term capital gains tax is much lower than short-term capital gains tax and 2) to avoid transaction fees from buying and holding stocks. There is a third more subtle reason that I&amp;rsquo;ll illustrate with a simple example.
+Imagine I have $100 and I have access to two stocks, A and B, both of which grow 50% a year.</description>
+    </item>
     
     <item>
       <title>Investing for retirement — a simple example</title>
