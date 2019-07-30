@@ -46,6 +46,6 @@ In general, the right option for most people is using their money in the followi
 
 I've shared this with a variety of friends. Here are a few of the valuable points they've made:
 
-Nate: If tax rates increase over time, then the roth IRA would be even a larger winner. One good thing about the traditional IRA is that it is taxed at the effective tax rate (the weighted average from your income bracket) as opposed to the roth IRA which is taxed at the marginal tax rate (which will be higher).
+**Nate:** If tax rates increase over time, then the roth IRA would be even a larger winner. One good thing about the traditional IRA is that it is taxed at the effective tax rate (the weighted average from your income bracket) as opposed to the roth IRA which is taxed at the marginal tax rate (which will be higher).
 
-Seth: You can't rollover a 401k directly to a roth IRA. You have to go 401k -> traditional IRA -> roth IRA which is known as a backdoor roth IRA conversion. Also, what's best depends on a prediction of future tax rates — in general, tax rates usually go up making the roth IRA even better. Also, some people talk about having both some money in roth IRA and traditional IRA as tax diversification not wanting to bet fully on tax rates being lower of higher in the future.
+**Seth:** You can't rollover a 401k directly to a roth IRA. You have to go 401k -> traditional IRA -> roth IRA which is known as a backdoor roth IRA conversion. Also, what's best depends on a prediction of future tax rates — in general, tax rates usually go up making the roth IRA even better. Also, some people talk about having both some money in roth IRA and traditional IRA as tax diversification not wanting to bet fully on tax rates being lower of higher in the future.
