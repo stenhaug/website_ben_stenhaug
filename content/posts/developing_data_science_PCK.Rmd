@@ -18,7 +18,7 @@ library(tidyverse)
 library(rlang)
 ```
 
-# Teaching is decision making
+## Teaching is decision making
 
 There's a moment from teaching high school math in North Carolina that I remember especially vividly. It was an ordinary Thursday afternoon, and I felt exhausted. In the back corner a few girls were off-task, two boys were yelling out, asking to go to the bathroom for the 2nd time in the 50 minute period, the lesson I was teaching for the first time in my life wasn't working, and my old whiteboard marker was nearly out of ink. How can I get the girls to get on-task? Do I let the boys go to the bathroom? I can't possibly say no, can I? Am I soft for always saying yes? Should I re-explain sin waves again or let them get onto the worksheet? Is the worksheet too hard? Do I leave the room in search of a better whiteboard marker? 
 
@@ -44,11 +44,11 @@ It's useful perhaps to name the enemy. Most often it's lack of empathy for what 
 
 I see pedagogical content knowledge as the antidote to the expert blind spot, and as one of the essential ingredients to effective teaching. Here's my question then:
 
-# How can teachers develop pedagogical content knowledge in data science?
+## How can teachers develop pedagogical content knowledge in data science?
 
-For such a fundamental question, research offers surprisingly little practical advice. In ___ paper summarized. 
+For such a fundamental question, research offers surprisingly little practical advice.
 
-# How I developed pedagogical content knowledge in under an hour
+## How I developed pedagogical content knowledge in under an hour
 
 Imagine you are teaching spread and gather for reshaping data next week. 
 
@@ -60,7 +60,7 @@ This idea is similar to the idea of a think aloud protocol which educators have 
 
 To test this idea, I built a prompt for the spread and gather functions. Here's the first part (you can see the [full prompt here](https://docs.google.com/document/d/19UC8zJhia_wgE_yvkaFf61PL6XjJZiNxLTzPuONhuCs/edit?usp=sharing)):
 
-## The prompt
+### The prompt
 
 *I printed out the following prompt and talked to students about it one at a time to better understand how to teaching reshaping data in R.*
 
@@ -88,14 +88,14 @@ spread(data = hamsters_data_frame, key = what, value = count)
 
 **Question 1:** Explain what Marva’s code did. Please explain in detail. You might even draw a picture...
 
-## Lessons learned from using the prompt
+### Lessons learned from using the prompt
 
 I listened as a few students responded to this prompt. I was shocked at how quickly my vision for teaching spread and gather developed. The first thing I noticed was the different words that students used to describe what spread does to a dataset: collapse, reshape, transpose, spreadsheet, arrange, wide, and long. The second thing I noticed is that each of the students I talked to either didn't understand or misconception around the idea of a row identifier. One student actually asked this question directly: 
 "How does R know to collapse the name column?". (INPUT IMAGE OF RESPONSE)
 
 There was also confusion on how the output dataset was sorted. Was Amy the first row because she appears first in the input dataset or because she is first in alphabetically?
 
-# The idea of a simplest possible unambiguous example (spue)
+### The idea of a simplest possible unambiguous example (spue)
 
 The students responses made me realize more generally what the goal of my prompt was. I wanted a simple example that made the spread function clear by looking at the input and output datasets. Similarly, if you are teaching someone multiplication for the first time, you probably aren't going to show them 112 * 101 = 11312 first because it's too complex. Similarly, you probably wouldn't show them 2 * 2 = 4 because it's difficult to distinguish from addition. The best first example for teaching multiplation is 2 * 3 = 6. It's simple and unambiguous. 
 
@@ -177,67 +177,71 @@ hamsters_data_frame
 spread(data = hamsters_data_frame, key = what, value = count)
 ```
 
-# A recipe for teaching effectively
+```{r}
+### not sure what this is so just hiding it in a comment ###
+
+# # A recipe for teaching effectively
+# 
+# a design class though of build something really simple and put it in front of people and it will generate discussion. 
+# 
+# So I wrote a super simple example of what spread does. And I gave it to students. They wrote their responses and we talked about those responses. 
+# 
+# I put myself in  this situation 
+# 
+# 
+# Not so long ago, I thought of a teacher's intuition 
+# 
+# 
+# 
+# Teaching is hard. I Teach a data science course in this area. It seems to me that teachining is the sum of thousnda of individual decisions: asf aksdf adsfk asdkfj asdfk. 
+# 
+# 
+# 
+# one can think of teaching as thousands of decisions. millions maybe.
+# 
+# i had this idea of we need evidence. we need to test everything. but then i realized two things
+# 
+# (1) a lot of what we know from other stuff holds
+# 
+# (2) testing everything becomes unwieldy
+# 
+# so then using intuition isn't the enemy, teachers are going to use it. how can we help them develop it. researchers call this PCK. 
+# 
+# so how can we help teachers develop PCK? It's useful perhaps to name the enemy. The enemy is the expert blindspots. Or in other words lack of empathy for what its like to not understand something. 
+# 
+# Maybe I'm explaining something and I go too quickly or don't offer practice on it? Why? Because I don't fully appreciate what its like to not know and the practices necessary.
+# 
+# We need to help teachers develop this empathy or intuiton of PCK or whatever you want to call it.
+# 
+# But doing that is super hard. For what seems to be such an essential piece of a student's education, research on developing PCK isn't compelling. This paper provides a meta-study which I'd summarize as many studies have found ways of improving PCK by doing things like ..., but the studies aren't specific about what works. 
+# 
+# I'm interested in something like what if someone needs to teach a class of students how to reshape data in R (e.g. go from wide to long) next week. What can they do to prepare now? I believe the first thing they do should be to build an empathy for what it's like to not understand that concept.
+# 
+# I looked and I looked and I looked and I couldn't find any suggestions for what to build that empathy quickly. I remembered a lesson from a design class though of build something really simple and put it in front of people and it will generate discussion. 
+# 
+# So I wrote a super simple example of what spread does. And I gave it to students. They wrote their responses and we talked about those responses. 
+# 
+# Students used all sorts of vocabulary. Could have been reshape_spread or reshape_gather.
+# 
+# This student made me realize what I now believe is the key misconception or shortcoming in almost everyone's understanding. When you use the spread function you specify the key and and value columns and nothing else. What happens to all of those other columns? They implicitly become the row identifiers. Almost no one understand that. And other implementations of reshapes has one specify those explicitly. 
+# 
+# I also realized this idea of a SPUE in creating it. For example, if you were teaching multiplication to a student for the first time you'd... then you'd move onto the edge of cases of multiply by 1 and 0 and then larger numbers. You might even ask students why 2 x 2 might be confusing. 
+# 
+# It's hard to show everything, like this idea of implicit row identification, with just one SPUE. So maybe the idea I'm after is a set of SPUEs such that in order for students to learn how the inputs lead to all of the outputs, they must hold a nearly correct mental model with high probability. 
+# 
+# Consider these examples:
+# 
+# For students to fully grasp, they must see it orders. That these become row identifiers. That when a value is missing it fills it in with NA. That if there are multiple values for a cell it returns an error. That for additional values of the column they just keep getting spread out wide. 
+# 
+# So here's my rough draft suggestion for what I'd do if I had to teach a data science concept next week.
+# 
+# (1) be sure i fully understand it
+# 
+# (2) make some example of using it and then find students and conduct a talk aloud about it
+# 
+# (3) create what I'm calling a set of SPUEs.
+# 
+# I think if you get to that point the rest of what to do unfolds fairly well. You can use that set of SPUEs as inspiration for a short-lecture on how to use the method. It can also be the inspiration for exercises for students to work on in groups. And it can certainly be inspiration for writing assessment items on the concept.
+```
 
 
-
-a design class though of build something really simple and put it in front of people and it will generate discussion. 
-
-So I wrote a super simple example of what spread does. And I gave it to students. They wrote their responses and we talked about those responses. 
-
-I put myself in  this situation 
-
-
-Not so long ago, I thought of a teacher's intuition 
-
-
-
-Teaching is hard. I Teach a data science course in this area. It seems to me that teachining is the sum of thousnda of individual decisions: asf aksdf adsfk asdkfj asdfk. 
-
-
-
-one can think of teaching as thousands of decisions. millions maybe.
-
-i had this idea of we need evidence. we need to test everything. but then i realized two things
-
-(1) a lot of what we know from other stuff holds
-
-(2) testing everything becomes unwieldy
-
-so then using intuition isn't the enemy, teachers are going to use it. how can we help them develop it. researchers call this PCK. 
-
-so how can we help teachers develop PCK? It's useful perhaps to name the enemy. The enemy is the expert blindspots. Or in other words lack of empathy for what its like to not understand something. 
-
-Maybe I'm explaining something and I go too quickly or don't offer practice on it? Why? Because I don't fully appreciate what its like to not know and the practices necessary.
-
-We need to help teachers develop this empathy or intuiton of PCK or whatever you want to call it.
-
-But doing that is super hard. For what seems to be such an essential piece of a student's education, research on developing PCK isn't compelling. This paper provides a meta-study which I'd summarize as many studies have found ways of improving PCK by doing things like ..., but the studies aren't specific about what works. 
-
-I'm interested in something like what if someone needs to teach a class of students how to reshape data in R (e.g. go from wide to long) next week. What can they do to prepare now? I believe the first thing they do should be to build an empathy for what it's like to not understand that concept.
-
-I looked and I looked and I looked and I couldn't find any suggestions for what to build that empathy quickly. I remembered a lesson from a design class though of build something really simple and put it in front of people and it will generate discussion. 
-
-So I wrote a super simple example of what spread does. And I gave it to students. They wrote their responses and we talked about those responses. 
-
-Students used all sorts of vocabulary. Could have been reshape_spread or reshape_gather.
-
-This student made me realize what I now believe is the key misconception or shortcoming in almost everyone's understanding. When you use the spread function you specify the key and and value columns and nothing else. What happens to all of those other columns? They implicitly become the row identifiers. Almost no one understand that. And other implementations of reshapes has one specify those explicitly. 
-
-I also realized this idea of a SPUE in creating it. For example, if you were teaching multiplication to a student for the first time you'd... then you'd move onto the edge of cases of multiply by 1 and 0 and then larger numbers. You might even ask students why 2 x 2 might be confusing. 
-
-It's hard to show everything, like this idea of implicit row identification, with just one SPUE. So maybe the idea I'm after is a set of SPUEs such that in order for students to learn how the inputs lead to all of the outputs, they must hold a nearly correct mental model with high probability. 
-
-Consider these examples:
-
-For students to fully grasp, they must see it orders. That these become row identifiers. That when a value is missing it fills it in with NA. That if there are multiple values for a cell it returns an error. That for additional values of the column they just keep getting spread out wide. 
-
-So here's my rough draft suggestion for what I'd do if I had to teach a data science concept next week.
-
-(1) be sure i fully understand it
-
-(2) make some example of using it and then find students and conduct a talk aloud about it
-
-(3) create what I'm calling a set of SPUEs.
-
-I think if you get to that point the rest of what to do unfolds fairly well. You can use that set of SPUEs as inspiration for a short-lecture on how to use the method. It can also be the inspiration for exercises for students to work on in groups. And it can certainly be inspiration for writing assessment items on the concept.

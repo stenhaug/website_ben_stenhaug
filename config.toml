@@ -24,8 +24,8 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Ben Stenhaug"
-intro = "<a href=\"https://sdsi.stanford.edu//\">Data Science Scholar</a> and PhD student at Stanford."
-description = "Previously at <a href=\"https://dssg.uchicago.edu/\">Data Science for Social Good</a>, Khan Academy, and TFA."
+intro = " PhD Candidate and <a href=\"https://datascience.stanford.edu/\">Data Science Institute Scholar</a> at Stanford University."
+description = "Previously at <a href=\"https://www.dssgfellowship.org/\">Data Science for Social Good</a>, Khan Academy, and TFA."
 authorimage = "ben_stenhaug_profile_pic_square.jpg"
 dateformat = "Jan 2, 2006"
 
@@ -46,7 +46,7 @@ university = "benastenhaug"
 
 ## Extras
 [params.extra]
-copyright = "© 2018. Ben Stenhaug." 
+copyright = "© 2020. Ben Stenhaug." 
 poweredby = true
 highlightjs = true
 rss = true
