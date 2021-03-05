@@ -19,4 +19,4 @@ I am currently working on my dissertation and working with the Stanford Data Sci
 
 Along the way, I've received an extraordinary data science education thanks to Stanford's Master's Program in Statistics and the [**Stanford Data Lab**](https://datalab.stanford.edu/) in particular. I'm also a [**2018 Data Science For Social Good fellow**](https://dssg.uchicago.edu/). As a result, I've become fascinated by the way data science teams are organized, adapt, and learn while tackling complicated problems.
 
-If you're interested in connecting, feel free to reach me at *benastenhaug@gmail.com*.
+If you're interested in connecting, feel free to reach me at *stenhaug@stanford.edu*.
