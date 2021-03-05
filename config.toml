@@ -46,7 +46,7 @@ twitter = "BenStenhaug"
 
 ## Extras
 [params.extra]
-copyright = "© 2021. Ben Stenhaug." 
+copyright = "© 2021. Benjamin A. Stenhaug." 
 poweredby = false
 highlightjs = true
 rss = true
