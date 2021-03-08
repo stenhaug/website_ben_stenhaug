@@ -10,7 +10,7 @@ showcomments: yes
 showpagemeta: yes
 ---
 
-I spend a good chunk of my life working, so it makes sense that I want to do it well. Years ago, I put together a document on [Principles for Knowledge Work](https://docs.google.com/document/d/1fIxpdFVT9qiIT2Vey7uXbTgzzwMGAZrmjOoM7MFQzAU/edit#heading=h.d4i4elslmcve). The document is intimidatingly long and includes suggestions like batch email, use multiple monitors, and have a weekly review.
+I spend a good chunk of my life working, so it makes sense that I want to do it well. Years ago, I put together a document on [**Principles for Knowledge Work**](https://docs.google.com/document/d/1fIxpdFVT9qiIT2Vey7uXbTgzzwMGAZrmjOoM7MFQzAU/edit#heading=h.d4i4elslmcve). The document is intimidatingly long and includes suggestions like batch email, use multiple monitors, and have a weekly review.
 
 When I would try to sell someone on working like this, they would nod along for a while and then eventually say something about how complex and constraining it feels. My results agree: I have tried to do all of these things, sometimes successfully, but too often it feels uphill-like the meta-work adds to the work instead of simplifying it.
 
