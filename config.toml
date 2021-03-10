@@ -25,7 +25,7 @@ enableRobotsTXT = true
 [params]
 author = "Ben Stenhaug"
 intro = " PhD Candidate at Stanford University."
-description = "Previously at <a href=\"https://www.dssgfellowship.org/\">Data Science for Social Good</a>, Khan Academy, and TFA."
+description = "Previously at <a href=\"https://www.dssgfellowship.org/\">Data Science for Social Good</a>, Khan Academy, and TFA. <br> Hello <br> <br> <br> There!"
 authorimage = "ben_stenhaug_profile_pic_square.jpg"
 dateformat = "Jan 2, 2006"
 
@@ -38,7 +38,7 @@ keywords = "data,datascience,R,tidyverse,stanford,dssg,education,teaching,learni
 [params.social]
 linkedin = "ben-stenhaug"
 github = "stenhaug"
-medium = "@benastenhaug"
+medium = "@benstenhaug"
 youtube = "benastenhaug"
 email = "benastenhaug@gmail.com"
 university = "benastenhaug"
