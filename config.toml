@@ -25,9 +25,11 @@ enableRobotsTXT = true
 [params]
 author = "Ben Stenhaug"
 intro = " PhD Candidate at Stanford University."
-description = "Previously at <a href=\"https://www.dssgfellowship.org/\">Data Science for Social Good</a>, Khan Academy, and TFA. <br> Hello <br> <br> <br> There!"
+description = "Previously at <a href=\"https://www.dssgfellowship.org/\">Data Science for Social Good</a>, Khan Academy, and TFA."
 authorimage = "ben_stenhaug_profile_pic_square.jpg"
 dateformat = "Jan 2, 2006"
+
+# <br> Hello <br> <br> <br> There!
 
 ## Site Meta Settings
 [params.meta]
