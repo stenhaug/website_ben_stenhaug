@@ -1,0 +1,86 @@
+---
+title: purrrplus
+description: "An R package that expands the functionality of purrr."
+author: ''
+date: '2018-06-10'
+slug: purrrplus
+tags:
+  - R
+  - Tidyverse
+  - Packages
+comments: no
+showcomments: yes
+showpagemeta: yes
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p><a href="http://stenhaug.github.io/purrrplus"><strong>See the package website.</strong></a></p>
+<div id="background" class="section level3">
+<h3>Background</h3>
+<p>In my work, I often need to run a function in R many times (for example in running a simulation). If any of these runs throw an error, all progress is lost. The tidyverse package purrrr provides functionality like <em>safely</em> which helps but makes subsequent analysis tricky. As a remedy, I wrote the package purrrplus which allows for running a function safely with easy analysis of errors and results.</p>
+</div>
+<div id="example" class="section level3">
+<h3>Example</h3>
+<pre class="r"><code>library(purrrplus)
+library(tidyverse) # most useful with the tidyverse</code></pre>
+<p>Imagine you have a function (which returns a named list or a named vector and might throw an error):</p>
+<pre class="r"><code>calculate_if_positive &lt;- function(a, b){
+  if(a &lt; 0 &amp; b &lt; 0) {stop(&quot;Both numbers are negative.&quot;)}
+  else if(a &lt; 0) {stop(&quot;Just the first number is negative&quot;)}
+  else if(b &lt; 0) {stop(&quot;Just the second number is negative&quot;)}
+  
+  list(add = a + b,
+       subtract = a - b,
+       multiply = a * b,
+       divide = a / b)
+}</code></pre>
+<p>And you want to apply this function to each row of a data frame (which might contain irrelevant variables):</p>
+<pre class="r"><code>(numbers &lt;- data_frame(a = c(-1, 0, 1, 2),
+                      b = c(2, 1, 0, -1),
+                      irrelevant = c(&quot;minneapolis&quot;, &quot;st_paul&quot;, &quot;minneapolis&quot;, &quot;st_paul&quot;)))</code></pre>
+<pre><code>## Warning: `data_frame()` was deprecated in tibble 1.1.0.
+## Please use `tibble()` instead.</code></pre>
+<pre><code>## # A tibble: 4 x 3
+##       a     b irrelevant 
+##   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;      
+## 1    -1     2 minneapolis
+## 2     0     1 st_paul    
+## 3     1     0 minneapolis
+## 4     2    -1 st_paul</code></pre>
+<p>pmap_safely adds an error and a result column (which come from applying the function) to the inputted data frame.</p>
+<pre class="r"><code>(output &lt;- pmap_safely(numbers, calculate_if_positive))</code></pre>
+<pre><code>## Note that the function does not use the following variables: irrelevant</code></pre>
+<pre><code>## # A tibble: 4 x 5
+##       a     b irrelevant  error                              result          
+##   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;       &lt;chr&gt;                              &lt;list&gt;          
+## 1    -1     2 minneapolis Just the first number is negative  &lt;NULL&gt;          
+## 2     0     1 st_paul     &lt;NA&gt;                               &lt;named list [4]&gt;
+## 3     1     0 minneapolis &lt;NA&gt;                               &lt;named list [4]&gt;
+## 4     2    -1 st_paul     Just the second number is negative &lt;NULL&gt;</code></pre>
+<p>get_errors allows for quick analysis of errors:</p>
+<pre class="r"><code>get_errors(output)</code></pre>
+<pre><code>## # A tibble: 10 x 5
+##    variable   value       n_errors count error_rate
+##    &lt;chr&gt;      &lt;chr&gt;          &lt;int&gt; &lt;int&gt;      &lt;dbl&gt;
+##  1 a          -1                 1     1        1  
+##  2 a          2                  1     1        1  
+##  3 a          0                  0     1        0  
+##  4 a          1                  0     1        0  
+##  5 b          -1                 1     1        1  
+##  6 b          2                  1     1        1  
+##  7 b          0                  0     1        0  
+##  8 b          1                  0     1        0  
+##  9 irrelevant minneapolis        1     2        0.5
+## 10 irrelevant st_paul            1     2        0.5</code></pre>
+<p>get_results filters out rows with errors and unnests results such that each item in the list that the function returns has its own column:</p>
+<pre class="r"><code>get_results(output)</code></pre>
+<pre><code>## Removed 2 errors out of 4 rows.</code></pre>
+<pre><code>## # A tibble: 2 x 7
+##       a     b irrelevant  add_result subtract_result multiply_result
+##   &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;            &lt;dbl&gt;           &lt;dbl&gt;           &lt;dbl&gt;
+## 1     0     1 st_paul              1              -1               0
+## 2     1     0 minneapolis          1               1               0
+## # … with 1 more variable: divide_result &lt;dbl&gt;</code></pre>
+</div>

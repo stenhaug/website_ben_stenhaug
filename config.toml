@@ -55,15 +55,25 @@ rss = true
 
 ## Main Menu
 [[menu.main]]
-    name = "posts"
+    name = "data science"
     weight = 100
-    identifier = "posts"
-    url = "/posts/"
+    identifier = "data-science"
+    url = "/data-science/"
 [[menu.main]]
-    name = "projects"
-    identifier = "projects"
+    name = "finance"
+    weight = 100
+    identifier = "finance"
+    url = "/finance/"
+[[menu.main]]
+    name = "life"
+    identifier = "life"
     weight = 200
-    url = "/projects/"
+    url = "/life/"
+#[[menu.main]]
+    #name = "projects"
+    #identifier = "projects"
+    #weight = 200
+    #url = "/projects/"
 #[[menu.main]]
     #name = "tags"
     #identifier = "tags"
