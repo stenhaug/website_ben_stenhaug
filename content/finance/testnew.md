@@ -1,7 +1,7 @@
 ---
 title: Testnew
 author: 'Ben Stenhaug'
-date: '2021-07-11'
+date: '2021-07-12'
 slug: test_new
 categories: []
 tags: []
