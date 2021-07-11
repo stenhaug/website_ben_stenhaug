@@ -1,5 +1,5 @@
 ---
-title: Roth vs. Traditional once and for all
+title: Roth vs Traditional once and for all
 author: 'Ben Stenhaug'
 date: '2021-07-12'
 slug: roth_vs_traditional
