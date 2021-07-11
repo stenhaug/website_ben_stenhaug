@@ -10,7 +10,7 @@ showcomments: yes
 showpagemeta: yes
 ---
 
-adkfjlskfThe basic idea of retirement is that we work for a while, and then we retire either because we can’t or don’t want to work anymore. 
+BEFORESSSTTTEAKadkfjlskfThe basic idea of retirement is that we work for a while, and then we retire either because we can’t or don’t want to work anymore. 
 
 For this to be possible, you need to save for retirement while you work.
 
