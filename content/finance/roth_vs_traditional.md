@@ -1,7 +1,7 @@
 ---
 title: Roth vs Traditional once and for all
 author: 'Ben Stenhaug'
-date: '2021-07-12'
+date: '2021-07-11'
 slug: roth_vs_traditional
 categories: []
 tags: []
@@ -10,7 +10,7 @@ showcomments: yes
 showpagemeta: yes
 ---
 
-WherethisIn [**saving for retirement**](https://www.benstenhaug.com/finance/investing_for_retirement/), we talked about a generic retirement account, but there are actually two types.
+In [**saving for retirement**](https://www.benstenhaug.com/finance/investing_for_retirement/), we talked about a generic retirement account, but there are actually two types.
 
 With a Roth retirement account, you invest money that you already paid income taxes on. This is how just about all money works: You earn income, pay income taxes, and then get to use the remainder for investing or consuming. 
 .

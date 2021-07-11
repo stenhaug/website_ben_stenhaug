@@ -1,7 +1,7 @@
 ---
 title: The Essence of Saving for Retirement
-author: 'Ben Stenhaug CHANGE'
-date: '2021-07-11'
+author: 'Ben Stenhaug'
+date: '2021-07-10'
 slug: saving_for_retirement
 categories: []
 tags: []
@@ -10,7 +10,7 @@ showcomments: yes
 showpagemeta: yes
 ---
 
-BEFORESSSTTTEAKadkfjlskfThe basic idea of retirement is that we work for a while, and then we retire either because we can’t or don’t want to work anymore. 
+The basic idea of retirement is that we work for a while, and then we retire either because we can’t or don’t want to work anymore. 
 
 For this to be possible, you need to save for retirement while you work.
 
