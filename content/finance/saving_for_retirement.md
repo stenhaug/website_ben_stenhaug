@@ -28,9 +28,9 @@ Conventional wisdom is that everyone should use a retirement account, but many p
 
 How bad is it not to have a retirement account? Is it like you should eat three cups of vegetables each day, but if you don’t, you’ll in all likelihood be fine? Or are the consequences of not having a retirement account more dire? How much money are individuals not using a retirement account missing out on? How much worse off will they be in retirement?
 
-Let’s try to answer these questions to make the value of retirement accounts concrete. Imagine you have $1000, and you’re trying to decide what to do with that money. For simplicity, further, imagine that the only thing you care about is buying shoes that cost $100 a pair. You plan to retire in 35 years and so have three distinct options:
+Let’s try to answer these questions to make the value of retirement accounts concrete. Imagine you have $1000, and you’re trying to decide what to do with that money. For simplicity, further, imagine that the only thing you care about is buying shoes that cost $100 a pair. You plan to retire in 35 years and have three distinct options:
 
-- **Option 1 - Buy shows now:** You can buy $1000 / $100 = 10 pairs of shoes right now.
+- **Option 1 - Buy shoes now:** You can buy $1000 / $100 = 10 pairs of shoes right now.
 
 - **Option 2 - Invest in a taxable account for 35 years:** You invest your $1,000 in a taxable (non-retirement) account. After paying income tax on dividends each year and capital gains at the end, it turns into $4,392. You can then buy $4,392 / $100 = 43.9 pairs of shoes in retirement. 
 
@@ -51,7 +51,7 @@ The investment and retirement multipliers depend on four factors:
 - Dividend rate (2% real^[Assuming real returns of 2% dividend and 3% growth each year totals a 5% annual real return. Working in real returns avoids having to worry about correcting for inflation.])
 - Capital gains rate (15%)
 
-The multiplier between Option 2 and Option 3 is 55.2 / 43.9} = 1.26. Given that you’re planning to wait 35 years to buy shoes, you can have 1.26 times more pairs of shoes if you invest in a retirement account. Let’s call this the retirement multiplier:
+The multiplier between Option 2 and Option 3 is 55.2 / 43.9 = 1.26. Given that you’re planning to wait 35 years to buy shoes, you can have 1.26 times more pairs of shoes if you invest in a retirement account. Let’s call this the retirement multiplier:
 
 $$
 \small{\text{Retirement Multiplier} = \dfrac{\text{Purchasing power of \\$1 if invested in retirement account}}{\text{Purchasing power of \\$1 if invested in a taxable account}}}
