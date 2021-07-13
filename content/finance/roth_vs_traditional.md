@@ -10,11 +10,11 @@ showcomments: yes
 showpagemeta: yes
 ---
 
-In [**saving for retirement**](https://www.benstenhaug.com/finance/investing_for_retirement/), we talked about a generic retirement account, but there are actually two types.
+In [**saving for retirement**](https://www.benstenhaug.com/finance/investing_for_retirement/), we talked about a generic retirement account, but there are actually two types:
 
-With a Roth retirement account, you invest money that you already paid income taxes on. This is how just about all money works: You earn income, pay income taxes, and then get to use the remainder for investing or consuming. 
-.
-With a Traditional retirement account, you don’t pay income taxes until retirement (sometimes called tax-deferred accounts — you’re deferring paying taxes until retirement). This could be a good option if you’ll pay a lower tax rate when you retire.
+- With a Roth retirement account, you invest money that you already paid income taxes on. This is how just about all money works: You earn income, pay income taxes, and then get to use the remainder for investing or consuming. 
+
+- With a Traditional retirement account, you don’t pay income taxes until retirement (sometimes called tax-deferred accounts — you’re deferring paying taxes until retirement). This could be a good option if you’ll pay a lower tax rate when you retire.
 
 To make this clear, imagine you make $1000 in pre-tax income that you want to save for retirement, your income tax rate right now is 30%, your income tax rate when you retire will be 20%, and your investments will be multiplied by ten between now and retirement.
 
