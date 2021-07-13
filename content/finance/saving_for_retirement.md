@@ -39,7 +39,7 @@ Let’s try to answer these questions to make the value of retirement accounts c
 We can think of the differences between these options in terms of multipliers. The multiplier between Option 1 and Option 2 is 43.9 / 10 = 4.39. You can have more than four times more pairs of shoes if you’re willing to wait for retirement. Let’s call this the investment multiplier:
 
 $$
-\text{Investment Multiplier} = \dfrac{\text{Purchasing power of \\$1 if invested in a taxable account until retirement}}{\text{Purchasing power of \\$1 right now}}
+\small{\text{Investment Multiplier} = \dfrac{\text{Purchasing power of \\$1 if invested in a taxable account}}{\text{Purchasing power of \\$1 right now}}}
 $$
 
 The investment multiplier is how much more purchasing power you’ll have if you invest your money into a taxable account. It clarifies the tradeoff between consuming now and consuming in retirement: Would you rather have one pair of shoes now or four pairs of shoes in retirement? This is the tradeoff between consuming less now or more later: The classic marshmallow test on a longer time scale.
@@ -54,7 +54,7 @@ The investment and retirement multipliers depend on four factors:
 The multiplier between Option 2 and Option 3 is 55.2 / 43.9} = 1.26. Given that you’re planning to wait 35 years to buy shoes, you can have 1.26 times more pairs of shoes if you invest in a retirement account. Let’s call this the retirement multiplier:
 
 $$
-\text{Retirement Multiplier} = \dfrac{\text{Purchasing power of \\$1 if invested in retirement account}}{\text{Purchasing power of \\$1 if invested in a taxable account until retirement}}
+\small{\text{Retirement Multiplier} = \dfrac{\text{Purchasing power of \\$1 if invested in retirement account}}{\text{Purchasing power of \\$1 if invested in a taxable account}}}
 $$
 
 The retirement multiplier is a free increase in the number of shoes you get. In either case, you’re waiting until retirement to buy shoes, but simply by using a retirement account and getting the two key advantages, you get more shoes. You’d be silly not to! I'm working on a Retirement Multiplier calculator.
