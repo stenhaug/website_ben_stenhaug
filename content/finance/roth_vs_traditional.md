@@ -10,7 +10,7 @@ showcomments: yes
 showpagemeta: yes
 ---
 
-In [**saving for retirement**](https://www.benstenhaug.com/finance/investing_for_retirement/), we talked about a generic retirement account, but there are actually two types:
+In [**The Essence of Saving for Retirement**](https://www.benstenhaug.com/finance/investing_for_retirement/), we talked about a generic retirement account, but there are actually two types:
 
 - With a Roth retirement account, you invest money that you already paid income taxes on. This is how just about all money works: You earn income, pay income taxes, and then get to use the remainder for investing or consuming. 
 
