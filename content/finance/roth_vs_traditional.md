@@ -18,9 +18,9 @@ With a Traditional retirement account, you don’t pay income taxes until retire
 
 To make this clear, imagine you make $1000 in pre-tax income that you want to save for retirement, your income tax rate right now is 30%, your income tax rate when you retire will be 20%, and your investments will be multiplied by ten between now and retirement.
 
-If you use a Roth retirement account, you pay \$1000 x 30% = \$300 in taxes right now. You then have \\$1000 - $300 = \\$700 to invest in the Roth retirement account. This money grows to $700 x 10 = $7,000, which you can withdraw tax-free when you retire.
+If you use a Roth retirement account, you pay \$1000 x 30% = \$300 in taxes right now. You then have \$1000 - \$300 = \$700 to invest in the Roth retirement account. This money grows to \$700 x 10 = \$7,000, which you can withdraw tax-free when you retire.
 
-If you use a Traditional retirement account, you don’t pay any taxes right now. You invest all $1000 in the Traditional retirement account. This money grows to $1000 * 10 = $10,000. You have to pay 20% income tax on this entire amount^[A common misconception is that the Roth retirement account is better because you’re paying tax before your investment grows. The incorrect logic is that it’s better to pay taxes on $1,000 before the investment grows than on $10,000 after the investment grows by a factor of 10. In fact, it doesn’t matter — imagine the tax rate is 30% now and 30% in retirement: Roth retirement account end value = Traditional retirement account end value $1,000 x 30% x 10 = $1,000 x 10 x 30%. Taxes multiply by a percentage, and order doesn’t matter in multiplication (the fancy name is the [commutative property of multiplication](http://www.mathematicsdictionary.com/english/vmd/full/c/vepropertyofmultiplication.htm)). This misconception is explained by [the Bogleheads wiki](https://www.bogleheads.org/wiki/Traditional_versus_Roth#Common_misconceptions) as that it doesn’t matter if the investment is taxed at the seed (Roth retirement account) or at harvest (Traditional retirement account).] which is $10,000 * 20% = $2,000. You end up with $10,000 - $2,000 = $8,000.
+If you use a Traditional retirement account, you don’t pay any taxes right now. You invest all \$1000 in the Traditional retirement account. This money grows to \$1000 x 10 = \$10,000. You have to pay 20% income tax on this entire amount^[A common misconception is that the Roth retirement account is better because you’re paying tax before your investment grows. The incorrect logic is that it’s better to pay taxes on \$1,000 before the investment grows than on $10,000 after the investment grows by a factor of 10. In fact, it doesn’t matter — imagine the tax rate is 30% now and 30% in retirement: Roth retirement account end value = Traditional retirement account end value \$1,000 x 30% x 10 = \$1,000 x 10 x 30%. Taxes multiply by a percentage, and order doesn’t matter in multiplication (the fancy name is the [commutative property of multiplication](http://www.mathematicsdictionary.com/english/vmd/full/c/vepropertyofmultiplication.htm)). This misconception is explained by [the Bogleheads wiki](https://www.bogleheads.org/wiki/Traditional_versus_Roth#Common_misconceptions) as that it doesn’t matter if the investment is taxed at the seed (Roth retirement account) or at harvest (Traditional retirement account).] which is \$10,000 x 20% = \$2,000. You end up with \$10,000 - \$2,000 = \$8,000.
 
 ### Should you use a Roth or a Traditional retirement account?
 
@@ -38,13 +38,13 @@ If you aren’t going to hit the contribution limit, then choosing between a Rot
 
 Of course, it’s impossible to know for sure what your tax rate will be in retirement — and in practice it’s even confusing to figure out what your tax rate is now — so even though the rule is clear, it’s still hard to implement.
 
-To further complicate the matter, if you are going to hit the contribution limit, then choosing between a Roth and Traditional retirement account becomes more complex. Imagine that the contribution limit is $6,000, your income tax rate is 30% now, and your income tax rate in retirement is 20%.
+To further complicate the matter, if you are going to hit the contribution limit, then choosing between a Roth and Traditional retirement account becomes more complex. Imagine that the contribution limit is \$6,000, your income tax rate is 30% now, and your income tax rate in retirement is 20%.
 
-- Roth - To meet the $6,000 limit, you need to invest $6,000 / (100% - 30%) = $8,570 in pre-tax income.
+- Roth: To meet the \$6,000 limit, you need to invest \$6,000 / (100% - 30%) = $8,570 in pre-tax income.
 
-- Traditional - To have an apples-to-apples comparison, we need to think through what you could do with $8,570 in pre-tax income. You can first contribute $6,000 to the Traditional retirement account. You then have $8,570 - $6,000 = $2,570 in pre-tax income. After taxes, that turns into $2,570 x (100% - 30%) = $1,800 which you can invest in a taxable account.
+- Traditional: To have an apples-to-apples comparison, we need to think through what you could do with \$8,570 in pre-tax income. You can first contribute \$6,000 to the Traditional retirement account. You then have \$8,570 - \$6,000 = \$2,570 in pre-tax income. After taxes, that turns into \$2,570 x (100% - 30%) = $1,800 which you can invest in a taxable account.
 
-Now we need to compare these two cases. In both, you started with $8,570.
+Now we need to compare these two cases. In both, you started with $8,570:
 
 **Roth**
 
@@ -56,11 +56,13 @@ Now we need to compare these two cases. In both, you started with $8,570.
 
 **Traditional**
 
-- $6,000 that you’ll have to pay taxes on when you withdraw. The tax rate at retirement is 20%, so this is like $4,800. With the leftovers, you invested $1,800 in a taxable account.
+- \$6,000 that you’ll have to pay taxes on when you withdraw. The tax rate at retirement is 20%, so this is like \$4,800. With the leftovers, you invested $1,800 in a taxable account.
 
 - $4,800 in after-tax retirement
 
 - $1,800 in a taxable account
+
+---
 
 This boils down to the Roth has $1,200 more in after-tax retirement, and the Traditional has $1,800 more in a taxable account.
 
@@ -84,11 +86,12 @@ In essence, this compares a Traditional retirement account’s benefit of deferr
 
 ### The Bottom Line
 
-1. Retirement accounts are better than taxable accounts because you don’t pay capital gains tax or taxes on dividends
-1. 38% of Americans don’t have a retirement account, and it’s worse for younger, lower-income, and minority individuals.
-1. We can get a sense of how important it is to save for retirement by understanding
-    1. Investment Multiplier: How much more purchasing power will you have if you invest in a taxable account.
-    1. Retirement Multiplier: How much more purchasing power will you have if you invest in a retirement account. (I'm working on a Retirement Multiplier calculator)
-1. A Roth retirement account has you pay income taxes now. A Traditional retirement account has you pay income taxes when you retire. Choosing between them is complicated:
-    1. If you won’t hit your contribution limit, then use a Roth retirement account if your tax rate now is less than or equal to your tax rate when you retire.
-    1. If you will hit your contribution limit (which you should try to do!), then use a Roth retirement account if your Retirement Multiplier is greater than or equal to the ratio of your income tax rate now to your income tax rate when you retire.
+- Retirement accounts are better than taxable accounts because you don’t pay capital gains tax or taxes on dividends
+- 38% of Americans don’t have a retirement account, and it’s worse for younger, lower-income, and minority individuals.
+- We can get a sense of how important it is to save for retirement by understanding
+    - Investment Multiplier: How much more purchasing power will you have if you invest in a taxable account.
+    - Retirement Multiplier: How much more purchasing power will you have if you invest in a retirement account. (I'm working on a Retirement Multiplier calculator)
+- A Roth retirement account has you pay income taxes now. A Traditional retirement account has you pay income taxes when you retire. Choosing between them is complicated:
+    - If you won’t hit your contribution limit, then use a Roth retirement account if your tax rate now is less than or equal to your tax rate when you retire.
+    - If you will hit your contribution limit (which you should try to do!), then use a Roth retirement account if your Retirement Multiplier is greater than or equal to the ratio of your income tax rate now to your income tax rate when you retire.
+    
