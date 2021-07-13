@@ -62,6 +62,8 @@ Now we need to compare these two cases. In both, you started with $8,570.
 
 - $1,800 in a taxable account
 
+---
+
 This boils down to the Roth has $1,200 more in after-tax retirement, and the Traditional has $1,800 more in a taxable account.
 
 Which is better? $1,800 is more than $1,200, but money in a retirement account is worth more.
