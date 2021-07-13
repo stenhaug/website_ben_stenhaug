@@ -36,10 +36,10 @@ Let’s try to answer these questions to make the value of retirement accounts c
 
 - **Option 3 -  Invest in a retirement account for 35 years:** You invest your $1000 in a retirement account. You don’t have to pay taxes on dividends or capital gains, so it turns into $5,516. You can then buy $5,516 / $100 = 55.2 pairs of shoes in retirement.
 
-We can think of the differences between these options in terms of multipliers. The multiplier between Option 1 and Option 2 is $frac{43.9}{10} = 4.39$. You can have more than four times more pairs of shoes if you’re willing to wait for retirement. Let’s call this the investment multiplier:
+We can think of the differences between these options in terms of multipliers. The multiplier between Option 1 and Option 2 is 43.9 / 10 = 4.39. You can have more than four times more pairs of shoes if you’re willing to wait for retirement. Let’s call this the investment multiplier:
 
 $$
-text{Investment Multiplier} = dfrac{text{Purchasing power of $1 if invested in a taxable account until retirement}}{text{Purchasing power of $1 right now}}
+\text{Investment Multiplier} = \dfrac{\text{Purchasing power of \\$1 if invested in a taxable account until retirement}}{\text{Purchasing power of \\$1 right now}}
 $$
 
 The investment multiplier is how much more purchasing power you’ll have if you invest your money into a taxable account. It clarifies the tradeoff between consuming now and consuming in retirement: Would you rather have one pair of shoes now or four pairs of shoes in retirement? This is the tradeoff between consuming less now or more later: The classic marshmallow test on a longer time scale.
@@ -51,7 +51,7 @@ The investment and retirement multipliers depend on four factors:
 - Dividend rate (2% real^[Assuming real returns of 2% dividend and 3% growth each year totals a 5% annual real return. Working in real returns avoids having to worry about correcting for inflation.])
 - Capital gains rate (15%)
 
-The multiplier between Option 2 and Option 3 is $\frac{55.2}{43.9} = 1.26$. Given that you’re planning to wait 35 years to buy shoes, you can have 1.26 times more pairs of shoes if you invest in a retirement account. Let’s call this the retirement multiplier $x + 2$:
+The multiplier between Option 2 and Option 3 is 55.2 / 43.9} = 1.26. Given that you’re planning to wait 35 years to buy shoes, you can have 1.26 times more pairs of shoes if you invest in a retirement account. Let’s call this the retirement multiplier:
 
 $$
 \text{Retirement Multiplier} = \dfrac{\text{Purchasing power of \\$1 if invested in retirement account}}{\text{Purchasing power of \\$1 if invested in a taxable account until retirement}}
@@ -59,5 +59,5 @@ $$
 
 The retirement multiplier is a free increase in the number of shoes you get. In either case, you’re waiting until retirement to buy shoes, but simply by using a retirement account and getting the two key advantages, you get more shoes. You’d be silly not to! I'm working on a Retirement Multiplier calculator.
 
-If you want to know how your purchasing power will increase if you invest in a taxable account, simply multiply by your Investment Multiplier (4.39 in the example). If you want to know your purchasing power will increase if you invest in a retirement account, multiply by your Investment Multiplier and Retirement Multiplier ($4.39 \cdot 1.26 = 5.52$ in the example).
+If you want to know how your purchasing power will increase if you invest in a taxable account, simply multiply by your Investment Multiplier (4.39 in the example). If you want to know your purchasing power will increase if you invest in a retirement account, multiply by your Investment Multiplier and Retirement Multiplier (4.39 x 1.26 = 5.52 in the example).
 
