@@ -20,7 +20,7 @@ Retirement accounts have two key advantages over taxable accounts:
 
 - **Key Advantage 1 - No capital gains tax:** For example, when you invest $1,000, and it turns into $5,000 in a taxable account, you have to pay something like 15% on the gains in taxes, which is ($5,000 - $1,000) * 15% = $560. In a retirement account, you get to keep all $5000.
 
-- **Key Advantage 2 - No taxes on dividends:** Most stocks pay out some of their returns in dividends each year. In a taxable account, you have to pay income tax on this dividend every year. In a retirement account, you keep the entire dividend. Dividends are usually relatively small, so this seems like a small difference, but it happens every year, so the difference compounds and can become gigantic over time.
+- **Key Advantage 2 - No taxes on dividends:** Most stocks pay out some of their returns in dividends each year. In a taxable account, you have to pay tax on this dividend every year. In a retirement account, you keep the entire dividend. Dividends are usually relatively small, so this seems like a small difference, but it happens every year, so the difference compounds and can become gigantic over time.
 
 ### How valuable are retirement accounts?
 
